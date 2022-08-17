@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
+build_start_time: [1660747832, 743465900]
+build_end_time: [1660747839, 822051048]
+inputs:
+  "/Users/zaratem/Documents/Goo/Goo/Goo/AppDelegate.swift": [1660747827, 454588890]
+  "/Users/zaratem/Documents/Goo/Goo/Goo/SceneDelegate.swift": [1660747827, 459647178]
+  "/Users/zaratem/Documents/Goo/Goo/Goo/ViewController.swift": [1660747827, 462111234]
