@@ -15,212 +15,6 @@
     },
     {
       "kind": "TypeDecl",
-      "name": "ViewController",
-      "printedName": "ViewController",
-      "children": [
-        {
-          "kind": "Function",
-          "name": "viewDidLoad",
-          "printedName": "viewDidLoad()",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Void",
-              "printedName": "()"
-            }
-          ],
-          "declKind": "Func",
-          "usr": "c:@M@Goo@objc(cs)ViewController(im)viewDidLoad",
-          "mangledName": "$s3Goo14ViewControllerC11viewDidLoadyyF",
-          "moduleName": "Goo",
-          "overriding": true,
-          "isOpen": true,
-          "objc_name": "viewDidLoad",
-          "declAttributes": [
-            "Dynamic",
-            "ObjC",
-            "Custom",
-            "Override"
-          ],
-          "funcSelfKind": "NonMutating"
-        },
-        {
-          "kind": "Constructor",
-          "name": "init",
-          "printedName": "init(nibName:bundle:)",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "ViewController",
-              "printedName": "Goo.ViewController",
-              "usr": "c:@M@Goo@objc(cs)ViewController"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "Optional",
-              "printedName": "Swift.String?",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "String",
-                  "printedName": "Swift.String",
-                  "usr": "s:SS"
-                }
-              ],
-              "usr": "s:Sq"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "Optional",
-              "printedName": "Foundation.Bundle?",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Bundle",
-                  "printedName": "Foundation.Bundle",
-                  "usr": "c:objc(cs)NSBundle"
-                }
-              ],
-              "usr": "s:Sq"
-            }
-          ],
-          "declKind": "Constructor",
-          "usr": "c:@M@Goo@objc(cs)ViewController(im)initWithNibName:bundle:",
-          "mangledName": "$s3Goo14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
-          "moduleName": "Goo",
-          "overriding": true,
-          "implicit": true,
-          "objc_name": "initWithNibName:bundle:",
-          "declAttributes": [
-            "Dynamic",
-            "ObjC",
-            "Custom",
-            "Override"
-          ],
-          "init_kind": "Designated"
-        },
-        {
-          "kind": "Constructor",
-          "name": "init",
-          "printedName": "init(coder:)",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Optional",
-              "printedName": "Goo.ViewController?",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "ViewController",
-                  "printedName": "Goo.ViewController",
-                  "usr": "c:@M@Goo@objc(cs)ViewController"
-                }
-              ],
-              "usr": "s:Sq"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "NSCoder",
-              "printedName": "Foundation.NSCoder",
-              "usr": "c:objc(cs)NSCoder"
-            }
-          ],
-          "declKind": "Constructor",
-          "usr": "c:@M@Goo@objc(cs)ViewController(im)initWithCoder:",
-          "mangledName": "$s3Goo14ViewControllerC5coderACSgSo7NSCoderC_tcfc",
-          "moduleName": "Goo",
-          "overriding": true,
-          "implicit": true,
-          "objc_name": "initWithCoder:",
-          "declAttributes": [
-            "Dynamic",
-            "ObjC",
-            "Custom",
-            "Required"
-          ],
-          "init_kind": "Designated"
-        }
-      ],
-      "declKind": "Class",
-      "usr": "c:@M@Goo@objc(cs)ViewController",
-      "mangledName": "$s3Goo14ViewControllerC",
-      "moduleName": "Goo",
-      "isOpen": true,
-      "declAttributes": [
-        "Custom",
-        "ObjC"
-      ],
-      "superclassUsr": "c:objc(cs)UIViewController",
-      "inheritsConvenienceInitializers": true,
-      "superclassNames": [
-        "UIKit.UIViewController",
-        "UIKit.UIResponder",
-        "ObjectiveC.NSObject"
-      ],
-      "conformances": [
-        {
-          "kind": "Conformance",
-          "name": "Equatable",
-          "printedName": "Equatable",
-          "usr": "s:SQ",
-          "mangledName": "$sSQ"
-        },
-        {
-          "kind": "Conformance",
-          "name": "Hashable",
-          "printedName": "Hashable",
-          "usr": "s:SH",
-          "mangledName": "$sSH"
-        },
-        {
-          "kind": "Conformance",
-          "name": "CVarArg",
-          "printedName": "CVarArg",
-          "usr": "s:s7CVarArgP",
-          "mangledName": "$ss7CVarArgP"
-        },
-        {
-          "kind": "Conformance",
-          "name": "_KeyValueCodingAndObservingPublishing",
-          "printedName": "_KeyValueCodingAndObservingPublishing",
-          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-        },
-        {
-          "kind": "Conformance",
-          "name": "_KeyValueCodingAndObserving",
-          "printedName": "_KeyValueCodingAndObserving",
-          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-        },
-        {
-          "kind": "Conformance",
-          "name": "CustomStringConvertible",
-          "printedName": "CustomStringConvertible",
-          "usr": "s:s23CustomStringConvertibleP",
-          "mangledName": "$ss23CustomStringConvertibleP"
-        },
-        {
-          "kind": "Conformance",
-          "name": "CustomDebugStringConvertible",
-          "printedName": "CustomDebugStringConvertible",
-          "usr": "s:s28CustomDebugStringConvertibleP",
-          "mangledName": "$ss28CustomDebugStringConvertibleP"
-        }
-      ]
-    },
-    {
-      "kind": "Import",
-      "name": "UIKit",
-      "printedName": "UIKit",
-      "declKind": "Import",
-      "moduleName": "Goo",
-      "declAttributes": [
-        "RawDocComment"
-      ]
-    },
-    {
-      "kind": "TypeDecl",
       "name": "AppDelegate",
       "printedName": "AppDelegate",
       "children": [
@@ -481,6 +275,56 @@
           "printedName": "CustomDebugStringConvertible",
           "usr": "s:s28CustomDebugStringConvertibleP",
           "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Goo",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HomeLocalDataManager",
+      "printedName": "HomeLocalDataManager",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HomeLocalDataManager",
+              "printedName": "Goo.HomeLocalDataManager",
+              "usr": "s:3Goo20HomeLocalDataManagerC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:3Goo20HomeLocalDataManagerCACycfc",
+          "mangledName": "$s3Goo20HomeLocalDataManagerCACycfc",
+          "moduleName": "Goo",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:3Goo20HomeLocalDataManagerC",
+      "mangledName": "$s3Goo20HomeLocalDataManagerC",
+      "moduleName": "Goo",
+      "isOpen": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "HomeLocalDataManagerInputProtocol",
+          "printedName": "HomeLocalDataManagerInputProtocol",
+          "usr": "s:3Goo33HomeLocalDataManagerInputProtocolP",
+          "mangledName": "$s3Goo33HomeLocalDataManagerInputProtocolP"
         }
       ]
     },
@@ -901,6 +745,3180 @@
           "printedName": "CustomDebugStringConvertible",
           "usr": "s:s28CustomDebugStringConvertibleP",
           "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Goo",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "Goo"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HomeViewProtocol",
+      "printedName": "HomeViewProtocol",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "presenter",
+          "printedName": "presenter",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.HomePresenterProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HomePresenterProtocol",
+                  "printedName": "Goo.HomePresenterProtocol",
+                  "usr": "s:3Goo21HomePresenterProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo16HomeViewProtocolP9presenterAA0b9PresenterD0_pSgvp",
+          "mangledName": "$s3Goo16HomeViewProtocolP9presenterAA0b9PresenterD0_pSgvp",
+          "moduleName": "Goo",
+          "protocolReq": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomePresenterProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomePresenterProtocol",
+                      "printedName": "Goo.HomePresenterProtocol",
+                      "usr": "s:3Goo21HomePresenterProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo16HomeViewProtocolP9presenterAA0b9PresenterD0_pSgvg",
+              "mangledName": "$s3Goo16HomeViewProtocolP9presenterAA0b9PresenterD0_pSgvg",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.HomeViewProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.HomeViewProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomePresenterProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomePresenterProtocol",
+                      "printedName": "Goo.HomePresenterProtocol",
+                      "usr": "s:3Goo21HomePresenterProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo16HomeViewProtocolP9presenterAA0b9PresenterD0_pSgvs",
+              "mangledName": "$s3Goo16HomeViewProtocolP9presenterAA0b9PresenterD0_pSgvs",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.HomeViewProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.HomeViewProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo16HomeViewProtocolP9presenterAA0b9PresenterD0_pSgvM",
+              "mangledName": "$s3Goo16HomeViewProtocolP9presenterAA0b9PresenterD0_pSgvM",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.HomeViewProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.HomeViewProtocol>",
+              "protocolReq": true,
+              "implicit": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:3Goo16HomeViewProtocolP",
+      "mangledName": "$s3Goo16HomeViewProtocolP",
+      "moduleName": "Goo",
+      "genericSig": "<τ_0_0 : AnyObject>",
+      "sugared_genericSig": "<Self : AnyObject>"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HomeWireFrameProtocol",
+      "printedName": "HomeWireFrameProtocol",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "createHomeModule",
+          "printedName": "createHomeModule()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIViewController",
+              "printedName": "UIKit.UIViewController",
+              "usr": "c:objc(cs)UIViewController"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:3Goo21HomeWireFrameProtocolP06createB6ModuleSo16UIViewControllerCyFZ",
+          "mangledName": "$s3Goo21HomeWireFrameProtocolP06createB6ModuleSo16UIViewControllerCyFZ",
+          "moduleName": "Goo",
+          "genericSig": "<τ_0_0 where τ_0_0 : Goo.HomeWireFrameProtocol>",
+          "sugared_genericSig": "<Self where Self : Goo.HomeWireFrameProtocol>",
+          "static": true,
+          "protocolReq": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:3Goo21HomeWireFrameProtocolP",
+      "mangledName": "$s3Goo21HomeWireFrameProtocolP",
+      "moduleName": "Goo",
+      "genericSig": "<τ_0_0 : AnyObject>",
+      "sugared_genericSig": "<Self : AnyObject>"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HomePresenterProtocol",
+      "printedName": "HomePresenterProtocol",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "view",
+          "printedName": "view",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.HomeViewProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HomeViewProtocol",
+                  "printedName": "Goo.HomeViewProtocol",
+                  "usr": "s:3Goo16HomeViewProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo21HomePresenterProtocolP4viewAA0b4ViewD0_pSgvp",
+          "mangledName": "$s3Goo21HomePresenterProtocolP4viewAA0b4ViewD0_pSgvp",
+          "moduleName": "Goo",
+          "protocolReq": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeViewProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeViewProtocol",
+                      "printedName": "Goo.HomeViewProtocol",
+                      "usr": "s:3Goo16HomeViewProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo21HomePresenterProtocolP4viewAA0b4ViewD0_pSgvg",
+              "mangledName": "$s3Goo21HomePresenterProtocolP4viewAA0b4ViewD0_pSgvg",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.HomePresenterProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.HomePresenterProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeViewProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeViewProtocol",
+                      "printedName": "Goo.HomeViewProtocol",
+                      "usr": "s:3Goo16HomeViewProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo21HomePresenterProtocolP4viewAA0b4ViewD0_pSgvs",
+              "mangledName": "$s3Goo21HomePresenterProtocolP4viewAA0b4ViewD0_pSgvs",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.HomePresenterProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.HomePresenterProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo21HomePresenterProtocolP4viewAA0b4ViewD0_pSgvM",
+              "mangledName": "$s3Goo21HomePresenterProtocolP4viewAA0b4ViewD0_pSgvM",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.HomePresenterProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.HomePresenterProtocol>",
+              "protocolReq": true,
+              "implicit": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "interactor",
+          "printedName": "interactor",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.HomeInteractorInputProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HomeInteractorInputProtocol",
+                  "printedName": "Goo.HomeInteractorInputProtocol",
+                  "usr": "s:3Goo27HomeInteractorInputProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo21HomePresenterProtocolP10interactorAA0b15InteractorInputD0_pSgvp",
+          "mangledName": "$s3Goo21HomePresenterProtocolP10interactorAA0b15InteractorInputD0_pSgvp",
+          "moduleName": "Goo",
+          "protocolReq": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeInteractorInputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeInteractorInputProtocol",
+                      "printedName": "Goo.HomeInteractorInputProtocol",
+                      "usr": "s:3Goo27HomeInteractorInputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo21HomePresenterProtocolP10interactorAA0b15InteractorInputD0_pSgvg",
+              "mangledName": "$s3Goo21HomePresenterProtocolP10interactorAA0b15InteractorInputD0_pSgvg",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.HomePresenterProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.HomePresenterProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeInteractorInputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeInteractorInputProtocol",
+                      "printedName": "Goo.HomeInteractorInputProtocol",
+                      "usr": "s:3Goo27HomeInteractorInputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo21HomePresenterProtocolP10interactorAA0b15InteractorInputD0_pSgvs",
+              "mangledName": "$s3Goo21HomePresenterProtocolP10interactorAA0b15InteractorInputD0_pSgvs",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.HomePresenterProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.HomePresenterProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo21HomePresenterProtocolP10interactorAA0b15InteractorInputD0_pSgvM",
+              "mangledName": "$s3Goo21HomePresenterProtocolP10interactorAA0b15InteractorInputD0_pSgvM",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.HomePresenterProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.HomePresenterProtocol>",
+              "protocolReq": true,
+              "implicit": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "wireFrame",
+          "printedName": "wireFrame",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.HomeWireFrameProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HomeWireFrameProtocol",
+                  "printedName": "Goo.HomeWireFrameProtocol",
+                  "usr": "s:3Goo21HomeWireFrameProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo21HomePresenterProtocolP9wireFrameAA0b4WirefD0_pSgvp",
+          "mangledName": "$s3Goo21HomePresenterProtocolP9wireFrameAA0b4WirefD0_pSgvp",
+          "moduleName": "Goo",
+          "protocolReq": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeWireFrameProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeWireFrameProtocol",
+                      "printedName": "Goo.HomeWireFrameProtocol",
+                      "usr": "s:3Goo21HomeWireFrameProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo21HomePresenterProtocolP9wireFrameAA0b4WirefD0_pSgvg",
+              "mangledName": "$s3Goo21HomePresenterProtocolP9wireFrameAA0b4WirefD0_pSgvg",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.HomePresenterProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.HomePresenterProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeWireFrameProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeWireFrameProtocol",
+                      "printedName": "Goo.HomeWireFrameProtocol",
+                      "usr": "s:3Goo21HomeWireFrameProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo21HomePresenterProtocolP9wireFrameAA0b4WirefD0_pSgvs",
+              "mangledName": "$s3Goo21HomePresenterProtocolP9wireFrameAA0b4WirefD0_pSgvs",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.HomePresenterProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.HomePresenterProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo21HomePresenterProtocolP9wireFrameAA0b4WirefD0_pSgvM",
+              "mangledName": "$s3Goo21HomePresenterProtocolP9wireFrameAA0b4WirefD0_pSgvM",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.HomePresenterProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.HomePresenterProtocol>",
+              "protocolReq": true,
+              "implicit": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:3Goo21HomePresenterProtocolP11viewDidLoadyyF",
+          "mangledName": "$s3Goo21HomePresenterProtocolP11viewDidLoadyyF",
+          "moduleName": "Goo",
+          "genericSig": "<τ_0_0 where τ_0_0 : Goo.HomePresenterProtocol>",
+          "sugared_genericSig": "<Self where Self : Goo.HomePresenterProtocol>",
+          "protocolReq": true,
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:3Goo21HomePresenterProtocolP",
+      "mangledName": "$s3Goo21HomePresenterProtocolP",
+      "moduleName": "Goo",
+      "genericSig": "<τ_0_0 : AnyObject>",
+      "sugared_genericSig": "<Self : AnyObject>"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HomeInteractorOutputProtocol",
+      "printedName": "HomeInteractorOutputProtocol",
+      "declKind": "Protocol",
+      "usr": "s:3Goo28HomeInteractorOutputProtocolP",
+      "mangledName": "$s3Goo28HomeInteractorOutputProtocolP",
+      "moduleName": "Goo",
+      "genericSig": "<τ_0_0 : AnyObject>",
+      "sugared_genericSig": "<Self : AnyObject>"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HomeInteractorInputProtocol",
+      "printedName": "HomeInteractorInputProtocol",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "presenter",
+          "printedName": "presenter",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.HomeInteractorOutputProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HomeInteractorOutputProtocol",
+                  "printedName": "Goo.HomeInteractorOutputProtocol",
+                  "usr": "s:3Goo28HomeInteractorOutputProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo27HomeInteractorInputProtocolP9presenterAA0bc6OutputE0_pSgvp",
+          "mangledName": "$s3Goo27HomeInteractorInputProtocolP9presenterAA0bc6OutputE0_pSgvp",
+          "moduleName": "Goo",
+          "protocolReq": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeInteractorOutputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeInteractorOutputProtocol",
+                      "printedName": "Goo.HomeInteractorOutputProtocol",
+                      "usr": "s:3Goo28HomeInteractorOutputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo27HomeInteractorInputProtocolP9presenterAA0bc6OutputE0_pSgvg",
+              "mangledName": "$s3Goo27HomeInteractorInputProtocolP9presenterAA0bc6OutputE0_pSgvg",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.HomeInteractorInputProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.HomeInteractorInputProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeInteractorOutputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeInteractorOutputProtocol",
+                      "printedName": "Goo.HomeInteractorOutputProtocol",
+                      "usr": "s:3Goo28HomeInteractorOutputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo27HomeInteractorInputProtocolP9presenterAA0bc6OutputE0_pSgvs",
+              "mangledName": "$s3Goo27HomeInteractorInputProtocolP9presenterAA0bc6OutputE0_pSgvs",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.HomeInteractorInputProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.HomeInteractorInputProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo27HomeInteractorInputProtocolP9presenterAA0bc6OutputE0_pSgvM",
+              "mangledName": "$s3Goo27HomeInteractorInputProtocolP9presenterAA0bc6OutputE0_pSgvM",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.HomeInteractorInputProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.HomeInteractorInputProtocol>",
+              "protocolReq": true,
+              "implicit": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "localDatamanager",
+          "printedName": "localDatamanager",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.HomeLocalDataManagerInputProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HomeLocalDataManagerInputProtocol",
+                  "printedName": "Goo.HomeLocalDataManagerInputProtocol",
+                  "usr": "s:3Goo33HomeLocalDataManagerInputProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo27HomeInteractorInputProtocolP16localDatamanagerAA0b16LocalDataManagerdE0_pSgvp",
+          "mangledName": "$s3Goo27HomeInteractorInputProtocolP16localDatamanagerAA0b16LocalDataManagerdE0_pSgvp",
+          "moduleName": "Goo",
+          "protocolReq": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeLocalDataManagerInputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeLocalDataManagerInputProtocol",
+                      "printedName": "Goo.HomeLocalDataManagerInputProtocol",
+                      "usr": "s:3Goo33HomeLocalDataManagerInputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo27HomeInteractorInputProtocolP16localDatamanagerAA0b16LocalDataManagerdE0_pSgvg",
+              "mangledName": "$s3Goo27HomeInteractorInputProtocolP16localDatamanagerAA0b16LocalDataManagerdE0_pSgvg",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.HomeInteractorInputProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.HomeInteractorInputProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeLocalDataManagerInputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeLocalDataManagerInputProtocol",
+                      "printedName": "Goo.HomeLocalDataManagerInputProtocol",
+                      "usr": "s:3Goo33HomeLocalDataManagerInputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo27HomeInteractorInputProtocolP16localDatamanagerAA0b16LocalDataManagerdE0_pSgvs",
+              "mangledName": "$s3Goo27HomeInteractorInputProtocolP16localDatamanagerAA0b16LocalDataManagerdE0_pSgvs",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.HomeInteractorInputProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.HomeInteractorInputProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo27HomeInteractorInputProtocolP16localDatamanagerAA0b16LocalDataManagerdE0_pSgvM",
+              "mangledName": "$s3Goo27HomeInteractorInputProtocolP16localDatamanagerAA0b16LocalDataManagerdE0_pSgvM",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.HomeInteractorInputProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.HomeInteractorInputProtocol>",
+              "protocolReq": true,
+              "implicit": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "remoteDatamanager",
+          "printedName": "remoteDatamanager",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.HomeRemoteDataManagerInputProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HomeRemoteDataManagerInputProtocol",
+                  "printedName": "Goo.HomeRemoteDataManagerInputProtocol",
+                  "usr": "s:3Goo34HomeRemoteDataManagerInputProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo27HomeInteractorInputProtocolP17remoteDatamanagerAA0b17RemoteDataManagerdE0_pSgvp",
+          "mangledName": "$s3Goo27HomeInteractorInputProtocolP17remoteDatamanagerAA0b17RemoteDataManagerdE0_pSgvp",
+          "moduleName": "Goo",
+          "protocolReq": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeRemoteDataManagerInputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeRemoteDataManagerInputProtocol",
+                      "printedName": "Goo.HomeRemoteDataManagerInputProtocol",
+                      "usr": "s:3Goo34HomeRemoteDataManagerInputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo27HomeInteractorInputProtocolP17remoteDatamanagerAA0b17RemoteDataManagerdE0_pSgvg",
+              "mangledName": "$s3Goo27HomeInteractorInputProtocolP17remoteDatamanagerAA0b17RemoteDataManagerdE0_pSgvg",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.HomeInteractorInputProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.HomeInteractorInputProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeRemoteDataManagerInputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeRemoteDataManagerInputProtocol",
+                      "printedName": "Goo.HomeRemoteDataManagerInputProtocol",
+                      "usr": "s:3Goo34HomeRemoteDataManagerInputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo27HomeInteractorInputProtocolP17remoteDatamanagerAA0b17RemoteDataManagerdE0_pSgvs",
+              "mangledName": "$s3Goo27HomeInteractorInputProtocolP17remoteDatamanagerAA0b17RemoteDataManagerdE0_pSgvs",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.HomeInteractorInputProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.HomeInteractorInputProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo27HomeInteractorInputProtocolP17remoteDatamanagerAA0b17RemoteDataManagerdE0_pSgvM",
+              "mangledName": "$s3Goo27HomeInteractorInputProtocolP17remoteDatamanagerAA0b17RemoteDataManagerdE0_pSgvM",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.HomeInteractorInputProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.HomeInteractorInputProtocol>",
+              "protocolReq": true,
+              "implicit": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:3Goo27HomeInteractorInputProtocolP",
+      "mangledName": "$s3Goo27HomeInteractorInputProtocolP",
+      "moduleName": "Goo",
+      "genericSig": "<τ_0_0 : AnyObject>",
+      "sugared_genericSig": "<Self : AnyObject>"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HomeDataManagerInputProtocol",
+      "printedName": "HomeDataManagerInputProtocol",
+      "declKind": "Protocol",
+      "usr": "s:3Goo28HomeDataManagerInputProtocolP",
+      "mangledName": "$s3Goo28HomeDataManagerInputProtocolP",
+      "moduleName": "Goo",
+      "genericSig": "<τ_0_0 : AnyObject>",
+      "sugared_genericSig": "<Self : AnyObject>"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HomeRemoteDataManagerInputProtocol",
+      "printedName": "HomeRemoteDataManagerInputProtocol",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "remoteRequestHandler",
+          "printedName": "remoteRequestHandler",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.HomeRemoteDataManagerOutputProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HomeRemoteDataManagerOutputProtocol",
+                  "printedName": "Goo.HomeRemoteDataManagerOutputProtocol",
+                  "usr": "s:3Goo35HomeRemoteDataManagerOutputProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo34HomeRemoteDataManagerInputProtocolP20remoteRequestHandlerAA0bcde6OutputG0_pSgvp",
+          "mangledName": "$s3Goo34HomeRemoteDataManagerInputProtocolP20remoteRequestHandlerAA0bcde6OutputG0_pSgvp",
+          "moduleName": "Goo",
+          "protocolReq": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeRemoteDataManagerOutputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeRemoteDataManagerOutputProtocol",
+                      "printedName": "Goo.HomeRemoteDataManagerOutputProtocol",
+                      "usr": "s:3Goo35HomeRemoteDataManagerOutputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo34HomeRemoteDataManagerInputProtocolP20remoteRequestHandlerAA0bcde6OutputG0_pSgvg",
+              "mangledName": "$s3Goo34HomeRemoteDataManagerInputProtocolP20remoteRequestHandlerAA0bcde6OutputG0_pSgvg",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.HomeRemoteDataManagerInputProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.HomeRemoteDataManagerInputProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeRemoteDataManagerOutputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeRemoteDataManagerOutputProtocol",
+                      "printedName": "Goo.HomeRemoteDataManagerOutputProtocol",
+                      "usr": "s:3Goo35HomeRemoteDataManagerOutputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo34HomeRemoteDataManagerInputProtocolP20remoteRequestHandlerAA0bcde6OutputG0_pSgvs",
+              "mangledName": "$s3Goo34HomeRemoteDataManagerInputProtocolP20remoteRequestHandlerAA0bcde6OutputG0_pSgvs",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.HomeRemoteDataManagerInputProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.HomeRemoteDataManagerInputProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo34HomeRemoteDataManagerInputProtocolP20remoteRequestHandlerAA0bcde6OutputG0_pSgvM",
+              "mangledName": "$s3Goo34HomeRemoteDataManagerInputProtocolP20remoteRequestHandlerAA0bcde6OutputG0_pSgvM",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.HomeRemoteDataManagerInputProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.HomeRemoteDataManagerInputProtocol>",
+              "protocolReq": true,
+              "implicit": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:3Goo34HomeRemoteDataManagerInputProtocolP",
+      "mangledName": "$s3Goo34HomeRemoteDataManagerInputProtocolP",
+      "moduleName": "Goo",
+      "genericSig": "<τ_0_0 : AnyObject>",
+      "sugared_genericSig": "<Self : AnyObject>"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HomeRemoteDataManagerOutputProtocol",
+      "printedName": "HomeRemoteDataManagerOutputProtocol",
+      "declKind": "Protocol",
+      "usr": "s:3Goo35HomeRemoteDataManagerOutputProtocolP",
+      "mangledName": "$s3Goo35HomeRemoteDataManagerOutputProtocolP",
+      "moduleName": "Goo",
+      "genericSig": "<τ_0_0 : AnyObject>",
+      "sugared_genericSig": "<Self : AnyObject>"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HomeLocalDataManagerInputProtocol",
+      "printedName": "HomeLocalDataManagerInputProtocol",
+      "declKind": "Protocol",
+      "usr": "s:3Goo33HomeLocalDataManagerInputProtocolP",
+      "mangledName": "$s3Goo33HomeLocalDataManagerInputProtocolP",
+      "moduleName": "Goo",
+      "genericSig": "<τ_0_0 : AnyObject>",
+      "sugared_genericSig": "<Self : AnyObject>"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Goo",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "Goo"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HomeView",
+      "printedName": "HomeView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "presenter",
+          "printedName": "presenter",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.HomePresenterProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HomePresenterProtocol",
+                  "printedName": "Goo.HomePresenterProtocol",
+                  "usr": "s:3Goo21HomePresenterProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo8HomeViewC9presenterAA0B17PresenterProtocol_pSgvp",
+          "mangledName": "$s3Goo8HomeViewC9presenterAA0B17PresenterProtocol_pSgvp",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomePresenterProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomePresenterProtocol",
+                      "printedName": "Goo.HomePresenterProtocol",
+                      "usr": "s:3Goo21HomePresenterProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo8HomeViewC9presenterAA0B17PresenterProtocol_pSgvg",
+              "mangledName": "$s3Goo8HomeViewC9presenterAA0B17PresenterProtocol_pSgvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomePresenterProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomePresenterProtocol",
+                      "printedName": "Goo.HomePresenterProtocol",
+                      "usr": "s:3Goo21HomePresenterProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo8HomeViewC9presenterAA0B17PresenterProtocol_pSgvs",
+              "mangledName": "$s3Goo8HomeViewC9presenterAA0B17PresenterProtocol_pSgvs",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo8HomeViewC9presenterAA0B17PresenterProtocol_pSgvM",
+              "mangledName": "$s3Goo8HomeViewC9presenterAA0B17PresenterProtocol_pSgvM",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "navBar",
+          "printedName": "navBar",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UINavigationBar",
+              "printedName": "UIKit.UINavigationBar",
+              "usr": "c:objc(cs)UINavigationBar"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo8HomeViewC6navBarSo012UINavigationE0Cvp",
+          "mangledName": "$s3Goo8HomeViewC6navBarSo012UINavigationE0Cvp",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UINavigationBar",
+                  "printedName": "UIKit.UINavigationBar",
+                  "usr": "c:objc(cs)UINavigationBar"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo8HomeViewC6navBarSo012UINavigationE0Cvg",
+              "mangledName": "$s3Goo8HomeViewC6navBarSo012UINavigationE0Cvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "UINavigationBar",
+                  "printedName": "UIKit.UINavigationBar",
+                  "usr": "c:objc(cs)UINavigationBar"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo8HomeViewC6navBarSo012UINavigationE0Cvs",
+              "mangledName": "$s3Goo8HomeViewC6navBarSo012UINavigationE0Cvs",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo8HomeViewC6navBarSo012UINavigationE0CvM",
+              "mangledName": "$s3Goo8HomeViewC6navBarSo012UINavigationE0CvM",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Goo@objc(cs)HomeView(im)viewDidLoad",
+          "mangledName": "$s3Goo8HomeViewC11viewDidLoadyyF",
+          "moduleName": "Goo",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "configuareUi",
+          "printedName": "configuareUi()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:3Goo8HomeViewC12configuareUiyyF",
+          "mangledName": "$s3Goo8HomeViewC12configuareUiyyF",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setCustomNavBarView",
+          "printedName": "setCustomNavBarView()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:3Goo8HomeViewC015setCustomNavBarC0yyF",
+          "mangledName": "$s3Goo8HomeViewC015setCustomNavBarC0yyF",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HomeView",
+              "printedName": "Goo.HomeView",
+              "usr": "c:@M@Goo@objc(cs)HomeView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Goo@objc(cs)HomeView(im)initWithNibName:bundle:",
+          "mangledName": "$s3Goo8HomeViewC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "Goo",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.HomeView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HomeView",
+                  "printedName": "Goo.HomeView",
+                  "usr": "c:@M@Goo@objc(cs)HomeView"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Goo@objc(cs)HomeView(im)initWithCoder:",
+          "mangledName": "$s3Goo8HomeViewC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "Goo",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@Goo@objc(cs)HomeView",
+      "mangledName": "$s3Goo8HomeViewC",
+      "moduleName": "Goo",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UITabBarController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UITabBarController",
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "HomeViewProtocol",
+          "printedName": "HomeViewProtocol",
+          "usr": "s:3Goo16HomeViewProtocolP",
+          "mangledName": "$s3Goo16HomeViewProtocolP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "FirtsViewController",
+      "printedName": "FirtsViewController",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "loginBtn",
+          "printedName": "loginBtn",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIButton",
+              "printedName": "UIKit.UIButton",
+              "usr": "c:objc(cs)UIButton"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo19FirtsViewControllerC8loginBtn33_12D306A9BF63722BCDE8927EA3499BAALLSo8UIButtonCvp",
+          "mangledName": "$s3Goo19FirtsViewControllerC8loginBtn33_12D306A9BF63722BCDE8927EA3499BAALLSo8UIButtonCvp",
+          "moduleName": "Goo",
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Goo@objc(cs)FirtsViewController(im)viewDidLoad",
+          "mangledName": "$s3Goo19FirtsViewControllerC11viewDidLoadyyF",
+          "moduleName": "Goo",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "goToLogin",
+          "printedName": "goToLogin()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Goo@objc(cs)FirtsViewController(im)goToLogin",
+          "mangledName": "$s3Goo19FirtsViewControllerC9goToLoginyyF",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FirtsViewController",
+              "printedName": "Goo.FirtsViewController",
+              "usr": "c:@M@Goo@objc(cs)FirtsViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Goo@objc(cs)FirtsViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s3Goo19FirtsViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "Goo",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.FirtsViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FirtsViewController",
+                  "printedName": "Goo.FirtsViewController",
+                  "usr": "c:@M@Goo@objc(cs)FirtsViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Goo@objc(cs)FirtsViewController(im)initWithCoder:",
+          "mangledName": "$s3Goo19FirtsViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "Goo",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@Goo@objc(cs)FirtsViewController",
+      "mangledName": "$s3Goo19FirtsViewControllerC",
+      "moduleName": "Goo",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIViewController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "SecondViewController",
+      "printedName": "SecondViewController",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Goo@objc(cs)SecondViewController(im)viewDidLoad",
+          "mangledName": "$s3Goo20SecondViewControllerC11viewDidLoadyyF",
+          "moduleName": "Goo",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SecondViewController",
+              "printedName": "Goo.SecondViewController",
+              "usr": "c:@M@Goo@objc(cs)SecondViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Goo@objc(cs)SecondViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s3Goo20SecondViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "Goo",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.SecondViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SecondViewController",
+                  "printedName": "Goo.SecondViewController",
+                  "usr": "c:@M@Goo@objc(cs)SecondViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Goo@objc(cs)SecondViewController(im)initWithCoder:",
+          "mangledName": "$s3Goo20SecondViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "Goo",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@Goo@objc(cs)SecondViewController",
+      "mangledName": "$s3Goo20SecondViewControllerC",
+      "moduleName": "Goo",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIViewController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Goo",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HomeRemoteDataManager",
+      "printedName": "HomeRemoteDataManager",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "remoteRequestHandler",
+          "printedName": "remoteRequestHandler",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.HomeRemoteDataManagerOutputProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HomeRemoteDataManagerOutputProtocol",
+                  "printedName": "Goo.HomeRemoteDataManagerOutputProtocol",
+                  "usr": "s:3Goo35HomeRemoteDataManagerOutputProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo21HomeRemoteDataManagerC20remoteRequestHandlerAA0bcdE14OutputProtocol_pSgvp",
+          "mangledName": "$s3Goo21HomeRemoteDataManagerC20remoteRequestHandlerAA0bcdE14OutputProtocol_pSgvp",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeRemoteDataManagerOutputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeRemoteDataManagerOutputProtocol",
+                      "printedName": "Goo.HomeRemoteDataManagerOutputProtocol",
+                      "usr": "s:3Goo35HomeRemoteDataManagerOutputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo21HomeRemoteDataManagerC20remoteRequestHandlerAA0bcdE14OutputProtocol_pSgvg",
+              "mangledName": "$s3Goo21HomeRemoteDataManagerC20remoteRequestHandlerAA0bcdE14OutputProtocol_pSgvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeRemoteDataManagerOutputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeRemoteDataManagerOutputProtocol",
+                      "printedName": "Goo.HomeRemoteDataManagerOutputProtocol",
+                      "usr": "s:3Goo35HomeRemoteDataManagerOutputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo21HomeRemoteDataManagerC20remoteRequestHandlerAA0bcdE14OutputProtocol_pSgvs",
+              "mangledName": "$s3Goo21HomeRemoteDataManagerC20remoteRequestHandlerAA0bcdE14OutputProtocol_pSgvs",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo21HomeRemoteDataManagerC20remoteRequestHandlerAA0bcdE14OutputProtocol_pSgvM",
+              "mangledName": "$s3Goo21HomeRemoteDataManagerC20remoteRequestHandlerAA0bcdE14OutputProtocol_pSgvM",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HomeRemoteDataManager",
+              "printedName": "Goo.HomeRemoteDataManager",
+              "usr": "s:3Goo21HomeRemoteDataManagerC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:3Goo21HomeRemoteDataManagerCACycfc",
+          "mangledName": "$s3Goo21HomeRemoteDataManagerCACycfc",
+          "moduleName": "Goo",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:3Goo21HomeRemoteDataManagerC",
+      "mangledName": "$s3Goo21HomeRemoteDataManagerC",
+      "moduleName": "Goo",
+      "isOpen": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "HomeRemoteDataManagerInputProtocol",
+          "printedName": "HomeRemoteDataManagerInputProtocol",
+          "usr": "s:3Goo34HomeRemoteDataManagerInputProtocolP",
+          "mangledName": "$s3Goo34HomeRemoteDataManagerInputProtocolP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Goo",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HomePresenter",
+      "printedName": "HomePresenter",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "view",
+          "printedName": "view",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "Goo.HomeViewProtocol?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo13HomePresenterC4viewAA0B12ViewProtocol_pSgvp",
+          "mangledName": "$s3Goo13HomePresenterC4viewAA0B12ViewProtocol_pSgvp",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "ReferenceOwnership",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 0,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeViewProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeViewProtocol",
+                      "printedName": "Goo.HomeViewProtocol",
+                      "usr": "s:3Goo16HomeViewProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo13HomePresenterC4viewAA0B12ViewProtocol_pSgvg",
+              "mangledName": "$s3Goo13HomePresenterC4viewAA0B12ViewProtocol_pSgvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeViewProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeViewProtocol",
+                      "printedName": "Goo.HomeViewProtocol",
+                      "usr": "s:3Goo16HomeViewProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo13HomePresenterC4viewAA0B12ViewProtocol_pSgvs",
+              "mangledName": "$s3Goo13HomePresenterC4viewAA0B12ViewProtocol_pSgvs",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo13HomePresenterC4viewAA0B12ViewProtocol_pSgvM",
+              "mangledName": "$s3Goo13HomePresenterC4viewAA0B12ViewProtocol_pSgvM",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "interactor",
+          "printedName": "interactor",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.HomeInteractorInputProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HomeInteractorInputProtocol",
+                  "printedName": "Goo.HomeInteractorInputProtocol",
+                  "usr": "s:3Goo27HomeInteractorInputProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo13HomePresenterC10interactorAA0B23InteractorInputProtocol_pSgvp",
+          "mangledName": "$s3Goo13HomePresenterC10interactorAA0B23InteractorInputProtocol_pSgvp",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeInteractorInputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeInteractorInputProtocol",
+                      "printedName": "Goo.HomeInteractorInputProtocol",
+                      "usr": "s:3Goo27HomeInteractorInputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo13HomePresenterC10interactorAA0B23InteractorInputProtocol_pSgvg",
+              "mangledName": "$s3Goo13HomePresenterC10interactorAA0B23InteractorInputProtocol_pSgvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeInteractorInputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeInteractorInputProtocol",
+                      "printedName": "Goo.HomeInteractorInputProtocol",
+                      "usr": "s:3Goo27HomeInteractorInputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo13HomePresenterC10interactorAA0B23InteractorInputProtocol_pSgvs",
+              "mangledName": "$s3Goo13HomePresenterC10interactorAA0B23InteractorInputProtocol_pSgvs",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo13HomePresenterC10interactorAA0B23InteractorInputProtocol_pSgvM",
+              "mangledName": "$s3Goo13HomePresenterC10interactorAA0B23InteractorInputProtocol_pSgvM",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "wireFrame",
+          "printedName": "wireFrame",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.HomeWireFrameProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HomeWireFrameProtocol",
+                  "printedName": "Goo.HomeWireFrameProtocol",
+                  "usr": "s:3Goo21HomeWireFrameProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo13HomePresenterC9wireFrameAA0b4WireE8Protocol_pSgvp",
+          "mangledName": "$s3Goo13HomePresenterC9wireFrameAA0b4WireE8Protocol_pSgvp",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeWireFrameProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeWireFrameProtocol",
+                      "printedName": "Goo.HomeWireFrameProtocol",
+                      "usr": "s:3Goo21HomeWireFrameProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo13HomePresenterC9wireFrameAA0b4WireE8Protocol_pSgvg",
+              "mangledName": "$s3Goo13HomePresenterC9wireFrameAA0b4WireE8Protocol_pSgvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeWireFrameProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeWireFrameProtocol",
+                      "printedName": "Goo.HomeWireFrameProtocol",
+                      "usr": "s:3Goo21HomeWireFrameProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo13HomePresenterC9wireFrameAA0b4WireE8Protocol_pSgvs",
+              "mangledName": "$s3Goo13HomePresenterC9wireFrameAA0b4WireE8Protocol_pSgvs",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo13HomePresenterC9wireFrameAA0b4WireE8Protocol_pSgvM",
+              "mangledName": "$s3Goo13HomePresenterC9wireFrameAA0b4WireE8Protocol_pSgvM",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HomePresenter",
+              "printedName": "Goo.HomePresenter",
+              "usr": "s:3Goo13HomePresenterC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:3Goo13HomePresenterCACycfc",
+          "mangledName": "$s3Goo13HomePresenterCACycfc",
+          "moduleName": "Goo",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:3Goo13HomePresenterC11viewDidLoadyyF",
+          "mangledName": "$s3Goo13HomePresenterC11viewDidLoadyyF",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:3Goo13HomePresenterC",
+      "mangledName": "$s3Goo13HomePresenterC",
+      "moduleName": "Goo",
+      "isOpen": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "HomePresenterProtocol",
+          "printedName": "HomePresenterProtocol",
+          "usr": "s:3Goo21HomePresenterProtocolP",
+          "mangledName": "$s3Goo21HomePresenterProtocolP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "HomeInteractorOutputProtocol",
+          "printedName": "HomeInteractorOutputProtocol",
+          "usr": "s:3Goo28HomeInteractorOutputProtocolP",
+          "mangledName": "$s3Goo28HomeInteractorOutputProtocolP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Goo",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HomeInteractor",
+      "printedName": "HomeInteractor",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "presenter",
+          "printedName": "presenter",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "Goo.HomeInteractorOutputProtocol?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo14HomeInteractorC9presenterAA0bC14OutputProtocol_pSgvp",
+          "mangledName": "$s3Goo14HomeInteractorC9presenterAA0bC14OutputProtocol_pSgvp",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "ReferenceOwnership",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 0,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeInteractorOutputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeInteractorOutputProtocol",
+                      "printedName": "Goo.HomeInteractorOutputProtocol",
+                      "usr": "s:3Goo28HomeInteractorOutputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo14HomeInteractorC9presenterAA0bC14OutputProtocol_pSgvg",
+              "mangledName": "$s3Goo14HomeInteractorC9presenterAA0bC14OutputProtocol_pSgvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeInteractorOutputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeInteractorOutputProtocol",
+                      "printedName": "Goo.HomeInteractorOutputProtocol",
+                      "usr": "s:3Goo28HomeInteractorOutputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo14HomeInteractorC9presenterAA0bC14OutputProtocol_pSgvs",
+              "mangledName": "$s3Goo14HomeInteractorC9presenterAA0bC14OutputProtocol_pSgvs",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo14HomeInteractorC9presenterAA0bC14OutputProtocol_pSgvM",
+              "mangledName": "$s3Goo14HomeInteractorC9presenterAA0bC14OutputProtocol_pSgvM",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "localDatamanager",
+          "printedName": "localDatamanager",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.HomeLocalDataManagerInputProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HomeLocalDataManagerInputProtocol",
+                  "printedName": "Goo.HomeLocalDataManagerInputProtocol",
+                  "usr": "s:3Goo33HomeLocalDataManagerInputProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo14HomeInteractorC16localDatamanagerAA0B29LocalDataManagerInputProtocol_pSgvp",
+          "mangledName": "$s3Goo14HomeInteractorC16localDatamanagerAA0B29LocalDataManagerInputProtocol_pSgvp",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeLocalDataManagerInputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeLocalDataManagerInputProtocol",
+                      "printedName": "Goo.HomeLocalDataManagerInputProtocol",
+                      "usr": "s:3Goo33HomeLocalDataManagerInputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo14HomeInteractorC16localDatamanagerAA0B29LocalDataManagerInputProtocol_pSgvg",
+              "mangledName": "$s3Goo14HomeInteractorC16localDatamanagerAA0B29LocalDataManagerInputProtocol_pSgvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeLocalDataManagerInputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeLocalDataManagerInputProtocol",
+                      "printedName": "Goo.HomeLocalDataManagerInputProtocol",
+                      "usr": "s:3Goo33HomeLocalDataManagerInputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo14HomeInteractorC16localDatamanagerAA0B29LocalDataManagerInputProtocol_pSgvs",
+              "mangledName": "$s3Goo14HomeInteractorC16localDatamanagerAA0B29LocalDataManagerInputProtocol_pSgvs",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo14HomeInteractorC16localDatamanagerAA0B29LocalDataManagerInputProtocol_pSgvM",
+              "mangledName": "$s3Goo14HomeInteractorC16localDatamanagerAA0B29LocalDataManagerInputProtocol_pSgvM",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "remoteDatamanager",
+          "printedName": "remoteDatamanager",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.HomeRemoteDataManagerInputProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HomeRemoteDataManagerInputProtocol",
+                  "printedName": "Goo.HomeRemoteDataManagerInputProtocol",
+                  "usr": "s:3Goo34HomeRemoteDataManagerInputProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo14HomeInteractorC17remoteDatamanagerAA0B30RemoteDataManagerInputProtocol_pSgvp",
+          "mangledName": "$s3Goo14HomeInteractorC17remoteDatamanagerAA0B30RemoteDataManagerInputProtocol_pSgvp",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeRemoteDataManagerInputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeRemoteDataManagerInputProtocol",
+                      "printedName": "Goo.HomeRemoteDataManagerInputProtocol",
+                      "usr": "s:3Goo34HomeRemoteDataManagerInputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo14HomeInteractorC17remoteDatamanagerAA0B30RemoteDataManagerInputProtocol_pSgvg",
+              "mangledName": "$s3Goo14HomeInteractorC17remoteDatamanagerAA0B30RemoteDataManagerInputProtocol_pSgvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.HomeRemoteDataManagerInputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HomeRemoteDataManagerInputProtocol",
+                      "printedName": "Goo.HomeRemoteDataManagerInputProtocol",
+                      "usr": "s:3Goo34HomeRemoteDataManagerInputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo14HomeInteractorC17remoteDatamanagerAA0B30RemoteDataManagerInputProtocol_pSgvs",
+              "mangledName": "$s3Goo14HomeInteractorC17remoteDatamanagerAA0B30RemoteDataManagerInputProtocol_pSgvs",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo14HomeInteractorC17remoteDatamanagerAA0B30RemoteDataManagerInputProtocol_pSgvM",
+              "mangledName": "$s3Goo14HomeInteractorC17remoteDatamanagerAA0B30RemoteDataManagerInputProtocol_pSgvM",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HomeInteractor",
+              "printedName": "Goo.HomeInteractor",
+              "usr": "s:3Goo14HomeInteractorC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:3Goo14HomeInteractorCACycfc",
+          "mangledName": "$s3Goo14HomeInteractorCACycfc",
+          "moduleName": "Goo",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:3Goo14HomeInteractorC",
+      "mangledName": "$s3Goo14HomeInteractorC",
+      "moduleName": "Goo",
+      "isOpen": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "HomeInteractorInputProtocol",
+          "printedName": "HomeInteractorInputProtocol",
+          "usr": "s:3Goo27HomeInteractorInputProtocolP",
+          "mangledName": "$s3Goo27HomeInteractorInputProtocolP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "HomeRemoteDataManagerOutputProtocol",
+          "printedName": "HomeRemoteDataManagerOutputProtocol",
+          "usr": "s:3Goo35HomeRemoteDataManagerOutputProtocolP",
+          "mangledName": "$s3Goo35HomeRemoteDataManagerOutputProtocolP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Goo",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "Goo"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HomeWireFrame",
+      "printedName": "HomeWireFrame",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "createHomeModule",
+          "printedName": "createHomeModule()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIViewController",
+              "printedName": "UIKit.UIViewController",
+              "usr": "c:objc(cs)UIViewController"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:3Goo13HomeWireFrameC06createB6ModuleSo16UIViewControllerCyFZ",
+          "mangledName": "$s3Goo13HomeWireFrameC06createB6ModuleSo16UIViewControllerCyFZ",
+          "moduleName": "Goo",
+          "static": true,
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "mainStoryboard",
+          "printedName": "mainStoryboard",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIStoryboard",
+              "printedName": "UIKit.UIStoryboard",
+              "usr": "c:objc(cs)UIStoryboard"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo13HomeWireFrameC14mainStoryboardSo12UIStoryboardCvpZ",
+          "mangledName": "$s3Goo13HomeWireFrameC14mainStoryboardSo12UIStoryboardCvpZ",
+          "moduleName": "Goo",
+          "static": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIStoryboard",
+                  "printedName": "UIKit.UIStoryboard",
+                  "usr": "c:objc(cs)UIStoryboard"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo13HomeWireFrameC14mainStoryboardSo12UIStoryboardCvgZ",
+              "mangledName": "$s3Goo13HomeWireFrameC14mainStoryboardSo12UIStoryboardCvgZ",
+              "moduleName": "Goo",
+              "static": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HomeWireFrame",
+              "printedName": "Goo.HomeWireFrame",
+              "usr": "s:3Goo13HomeWireFrameC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:3Goo13HomeWireFrameCACycfc",
+          "mangledName": "$s3Goo13HomeWireFrameCACycfc",
+          "moduleName": "Goo",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:3Goo13HomeWireFrameC",
+      "mangledName": "$s3Goo13HomeWireFrameC",
+      "moduleName": "Goo",
+      "isOpen": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "HomeWireFrameProtocol",
+          "printedName": "HomeWireFrameProtocol",
+          "usr": "s:3Goo21HomeWireFrameProtocolP",
+          "mangledName": "$s3Goo21HomeWireFrameProtocolP"
         }
       ]
     }
