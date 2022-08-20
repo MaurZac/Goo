@@ -5,6 +5,1834 @@
   "children": [
     {
       "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Goo",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "Goo"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "TvShowsViewProtocol",
+      "printedName": "TvShowsViewProtocol",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "presenter",
+          "printedName": "presenter",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.TvShowsPresenterProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TvShowsPresenterProtocol",
+                  "printedName": "Goo.TvShowsPresenterProtocol",
+                  "usr": "s:3Goo24TvShowsPresenterProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo19TvShowsViewProtocolP9presenterAA0bc9PresenterE0_pSgvp",
+          "mangledName": "$s3Goo19TvShowsViewProtocolP9presenterAA0bc9PresenterE0_pSgvp",
+          "moduleName": "Goo",
+          "protocolReq": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsPresenterProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsPresenterProtocol",
+                      "printedName": "Goo.TvShowsPresenterProtocol",
+                      "usr": "s:3Goo24TvShowsPresenterProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo19TvShowsViewProtocolP9presenterAA0bc9PresenterE0_pSgvg",
+              "mangledName": "$s3Goo19TvShowsViewProtocolP9presenterAA0bc9PresenterE0_pSgvg",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsViewProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.TvShowsViewProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsPresenterProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsPresenterProtocol",
+                      "printedName": "Goo.TvShowsPresenterProtocol",
+                      "usr": "s:3Goo24TvShowsPresenterProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo19TvShowsViewProtocolP9presenterAA0bc9PresenterE0_pSgvs",
+              "mangledName": "$s3Goo19TvShowsViewProtocolP9presenterAA0bc9PresenterE0_pSgvs",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsViewProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.TvShowsViewProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo19TvShowsViewProtocolP9presenterAA0bc9PresenterE0_pSgvM",
+              "mangledName": "$s3Goo19TvShowsViewProtocolP9presenterAA0bc9PresenterE0_pSgvM",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsViewProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.TvShowsViewProtocol>",
+              "protocolReq": true,
+              "implicit": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "presentToView",
+          "printedName": "presentToView(recev:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Goo.TvShow]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TvShow",
+                  "printedName": "Goo.TvShow",
+                  "usr": "s:3Goo6TvShowV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:3Goo19TvShowsViewProtocolP09presentToD05recevySayAA0B4ShowVG_tF",
+          "mangledName": "$s3Goo19TvShowsViewProtocolP09presentToD05recevySayAA0B4ShowVG_tF",
+          "moduleName": "Goo",
+          "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsViewProtocol>",
+          "sugared_genericSig": "<Self where Self : Goo.TvShowsViewProtocol>",
+          "protocolReq": true,
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:3Goo19TvShowsViewProtocolP",
+      "mangledName": "$s3Goo19TvShowsViewProtocolP",
+      "moduleName": "Goo",
+      "genericSig": "<τ_0_0 : AnyObject>",
+      "sugared_genericSig": "<Self : AnyObject>"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "TvShowsWireFrameProtocol",
+      "printedName": "TvShowsWireFrameProtocol",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "createTvShowsModule",
+          "printedName": "createTvShowsModule()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIViewController",
+              "printedName": "UIKit.UIViewController",
+              "usr": "c:objc(cs)UIViewController"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:3Goo24TvShowsWireFrameProtocolP06createbC6ModuleSo16UIViewControllerCyFZ",
+          "mangledName": "$s3Goo24TvShowsWireFrameProtocolP06createbC6ModuleSo16UIViewControllerCyFZ",
+          "moduleName": "Goo",
+          "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsWireFrameProtocol>",
+          "sugared_genericSig": "<Self where Self : Goo.TvShowsWireFrameProtocol>",
+          "static": true,
+          "protocolReq": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:3Goo24TvShowsWireFrameProtocolP",
+      "mangledName": "$s3Goo24TvShowsWireFrameProtocolP",
+      "moduleName": "Goo",
+      "genericSig": "<τ_0_0 : AnyObject>",
+      "sugared_genericSig": "<Self : AnyObject>"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "TvShowsPresenterProtocol",
+      "printedName": "TvShowsPresenterProtocol",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "view",
+          "printedName": "view",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.TvShowsViewProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TvShowsViewProtocol",
+                  "printedName": "Goo.TvShowsViewProtocol",
+                  "usr": "s:3Goo19TvShowsViewProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo24TvShowsPresenterProtocolP4viewAA0bc4ViewE0_pSgvp",
+          "mangledName": "$s3Goo24TvShowsPresenterProtocolP4viewAA0bc4ViewE0_pSgvp",
+          "moduleName": "Goo",
+          "protocolReq": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsViewProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsViewProtocol",
+                      "printedName": "Goo.TvShowsViewProtocol",
+                      "usr": "s:3Goo19TvShowsViewProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo24TvShowsPresenterProtocolP4viewAA0bc4ViewE0_pSgvg",
+              "mangledName": "$s3Goo24TvShowsPresenterProtocolP4viewAA0bc4ViewE0_pSgvg",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsPresenterProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.TvShowsPresenterProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsViewProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsViewProtocol",
+                      "printedName": "Goo.TvShowsViewProtocol",
+                      "usr": "s:3Goo19TvShowsViewProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo24TvShowsPresenterProtocolP4viewAA0bc4ViewE0_pSgvs",
+              "mangledName": "$s3Goo24TvShowsPresenterProtocolP4viewAA0bc4ViewE0_pSgvs",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsPresenterProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.TvShowsPresenterProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo24TvShowsPresenterProtocolP4viewAA0bc4ViewE0_pSgvM",
+              "mangledName": "$s3Goo24TvShowsPresenterProtocolP4viewAA0bc4ViewE0_pSgvM",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsPresenterProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.TvShowsPresenterProtocol>",
+              "protocolReq": true,
+              "implicit": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "interactor",
+          "printedName": "interactor",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.TvShowsInteractorInputProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TvShowsInteractorInputProtocol",
+                  "printedName": "Goo.TvShowsInteractorInputProtocol",
+                  "usr": "s:3Goo30TvShowsInteractorInputProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo24TvShowsPresenterProtocolP10interactorAA0bc15InteractorInputE0_pSgvp",
+          "mangledName": "$s3Goo24TvShowsPresenterProtocolP10interactorAA0bc15InteractorInputE0_pSgvp",
+          "moduleName": "Goo",
+          "protocolReq": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsInteractorInputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsInteractorInputProtocol",
+                      "printedName": "Goo.TvShowsInteractorInputProtocol",
+                      "usr": "s:3Goo30TvShowsInteractorInputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo24TvShowsPresenterProtocolP10interactorAA0bc15InteractorInputE0_pSgvg",
+              "mangledName": "$s3Goo24TvShowsPresenterProtocolP10interactorAA0bc15InteractorInputE0_pSgvg",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsPresenterProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.TvShowsPresenterProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsInteractorInputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsInteractorInputProtocol",
+                      "printedName": "Goo.TvShowsInteractorInputProtocol",
+                      "usr": "s:3Goo30TvShowsInteractorInputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo24TvShowsPresenterProtocolP10interactorAA0bc15InteractorInputE0_pSgvs",
+              "mangledName": "$s3Goo24TvShowsPresenterProtocolP10interactorAA0bc15InteractorInputE0_pSgvs",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsPresenterProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.TvShowsPresenterProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo24TvShowsPresenterProtocolP10interactorAA0bc15InteractorInputE0_pSgvM",
+              "mangledName": "$s3Goo24TvShowsPresenterProtocolP10interactorAA0bc15InteractorInputE0_pSgvM",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsPresenterProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.TvShowsPresenterProtocol>",
+              "protocolReq": true,
+              "implicit": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "wireFrame",
+          "printedName": "wireFrame",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.TvShowsWireFrameProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TvShowsWireFrameProtocol",
+                  "printedName": "Goo.TvShowsWireFrameProtocol",
+                  "usr": "s:3Goo24TvShowsWireFrameProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo24TvShowsPresenterProtocolP9wireFrameAA0bc4WiregE0_pSgvp",
+          "mangledName": "$s3Goo24TvShowsPresenterProtocolP9wireFrameAA0bc4WiregE0_pSgvp",
+          "moduleName": "Goo",
+          "protocolReq": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsWireFrameProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsWireFrameProtocol",
+                      "printedName": "Goo.TvShowsWireFrameProtocol",
+                      "usr": "s:3Goo24TvShowsWireFrameProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo24TvShowsPresenterProtocolP9wireFrameAA0bc4WiregE0_pSgvg",
+              "mangledName": "$s3Goo24TvShowsPresenterProtocolP9wireFrameAA0bc4WiregE0_pSgvg",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsPresenterProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.TvShowsPresenterProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsWireFrameProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsWireFrameProtocol",
+                      "printedName": "Goo.TvShowsWireFrameProtocol",
+                      "usr": "s:3Goo24TvShowsWireFrameProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo24TvShowsPresenterProtocolP9wireFrameAA0bc4WiregE0_pSgvs",
+              "mangledName": "$s3Goo24TvShowsPresenterProtocolP9wireFrameAA0bc4WiregE0_pSgvs",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsPresenterProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.TvShowsPresenterProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo24TvShowsPresenterProtocolP9wireFrameAA0bc4WiregE0_pSgvM",
+              "mangledName": "$s3Goo24TvShowsPresenterProtocolP9wireFrameAA0bc4WiregE0_pSgvM",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsPresenterProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.TvShowsPresenterProtocol>",
+              "protocolReq": true,
+              "implicit": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:3Goo24TvShowsPresenterProtocolP11viewDidLoadyyF",
+          "mangledName": "$s3Goo24TvShowsPresenterProtocolP11viewDidLoadyyF",
+          "moduleName": "Goo",
+          "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsPresenterProtocol>",
+          "sugared_genericSig": "<Self where Self : Goo.TvShowsPresenterProtocol>",
+          "protocolReq": true,
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:3Goo24TvShowsPresenterProtocolP",
+      "mangledName": "$s3Goo24TvShowsPresenterProtocolP",
+      "moduleName": "Goo",
+      "genericSig": "<τ_0_0 : AnyObject>",
+      "sugared_genericSig": "<Self : AnyObject>"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "TvShowsInteractorOutputProtocol",
+      "printedName": "TvShowsInteractorOutputProtocol",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "interToPresenterData",
+          "printedName": "interToPresenterData(receData:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Goo.TvShow]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TvShow",
+                  "printedName": "Goo.TvShow",
+                  "usr": "s:3Goo6TvShowV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:3Goo31TvShowsInteractorOutputProtocolP20interToPresenterData04receJ0ySayAA0B4ShowVG_tF",
+          "mangledName": "$s3Goo31TvShowsInteractorOutputProtocolP20interToPresenterData04receJ0ySayAA0B4ShowVG_tF",
+          "moduleName": "Goo",
+          "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsInteractorOutputProtocol>",
+          "sugared_genericSig": "<Self where Self : Goo.TvShowsInteractorOutputProtocol>",
+          "protocolReq": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:3Goo31TvShowsInteractorOutputProtocolP",
+      "mangledName": "$s3Goo31TvShowsInteractorOutputProtocolP",
+      "moduleName": "Goo",
+      "genericSig": "<τ_0_0 : AnyObject>",
+      "sugared_genericSig": "<Self : AnyObject>"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "TvShowsInteractorInputProtocol",
+      "printedName": "TvShowsInteractorInputProtocol",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "presenter",
+          "printedName": "presenter",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.TvShowsInteractorOutputProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TvShowsInteractorOutputProtocol",
+                  "printedName": "Goo.TvShowsInteractorOutputProtocol",
+                  "usr": "s:3Goo31TvShowsInteractorOutputProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo30TvShowsInteractorInputProtocolP9presenterAA0bcd6OutputF0_pSgvp",
+          "mangledName": "$s3Goo30TvShowsInteractorInputProtocolP9presenterAA0bcd6OutputF0_pSgvp",
+          "moduleName": "Goo",
+          "protocolReq": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsInteractorOutputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsInteractorOutputProtocol",
+                      "printedName": "Goo.TvShowsInteractorOutputProtocol",
+                      "usr": "s:3Goo31TvShowsInteractorOutputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo30TvShowsInteractorInputProtocolP9presenterAA0bcd6OutputF0_pSgvg",
+              "mangledName": "$s3Goo30TvShowsInteractorInputProtocolP9presenterAA0bcd6OutputF0_pSgvg",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsInteractorInputProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.TvShowsInteractorInputProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsInteractorOutputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsInteractorOutputProtocol",
+                      "printedName": "Goo.TvShowsInteractorOutputProtocol",
+                      "usr": "s:3Goo31TvShowsInteractorOutputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo30TvShowsInteractorInputProtocolP9presenterAA0bcd6OutputF0_pSgvs",
+              "mangledName": "$s3Goo30TvShowsInteractorInputProtocolP9presenterAA0bcd6OutputF0_pSgvs",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsInteractorInputProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.TvShowsInteractorInputProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo30TvShowsInteractorInputProtocolP9presenterAA0bcd6OutputF0_pSgvM",
+              "mangledName": "$s3Goo30TvShowsInteractorInputProtocolP9presenterAA0bcd6OutputF0_pSgvM",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsInteractorInputProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.TvShowsInteractorInputProtocol>",
+              "protocolReq": true,
+              "implicit": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "localDatamanager",
+          "printedName": "localDatamanager",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.TvShowsLocalDataManagerInputProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TvShowsLocalDataManagerInputProtocol",
+                  "printedName": "Goo.TvShowsLocalDataManagerInputProtocol",
+                  "usr": "s:3Goo36TvShowsLocalDataManagerInputProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo30TvShowsInteractorInputProtocolP16localDatamanagerAA0bc16LocalDataManagereF0_pSgvp",
+          "mangledName": "$s3Goo30TvShowsInteractorInputProtocolP16localDatamanagerAA0bc16LocalDataManagereF0_pSgvp",
+          "moduleName": "Goo",
+          "protocolReq": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsLocalDataManagerInputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsLocalDataManagerInputProtocol",
+                      "printedName": "Goo.TvShowsLocalDataManagerInputProtocol",
+                      "usr": "s:3Goo36TvShowsLocalDataManagerInputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo30TvShowsInteractorInputProtocolP16localDatamanagerAA0bc16LocalDataManagereF0_pSgvg",
+              "mangledName": "$s3Goo30TvShowsInteractorInputProtocolP16localDatamanagerAA0bc16LocalDataManagereF0_pSgvg",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsInteractorInputProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.TvShowsInteractorInputProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsLocalDataManagerInputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsLocalDataManagerInputProtocol",
+                      "printedName": "Goo.TvShowsLocalDataManagerInputProtocol",
+                      "usr": "s:3Goo36TvShowsLocalDataManagerInputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo30TvShowsInteractorInputProtocolP16localDatamanagerAA0bc16LocalDataManagereF0_pSgvs",
+              "mangledName": "$s3Goo30TvShowsInteractorInputProtocolP16localDatamanagerAA0bc16LocalDataManagereF0_pSgvs",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsInteractorInputProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.TvShowsInteractorInputProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo30TvShowsInteractorInputProtocolP16localDatamanagerAA0bc16LocalDataManagereF0_pSgvM",
+              "mangledName": "$s3Goo30TvShowsInteractorInputProtocolP16localDatamanagerAA0bc16LocalDataManagereF0_pSgvM",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsInteractorInputProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.TvShowsInteractorInputProtocol>",
+              "protocolReq": true,
+              "implicit": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "remoteDatamanager",
+          "printedName": "remoteDatamanager",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.TvShowsRemoteDataManagerInputProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TvShowsRemoteDataManagerInputProtocol",
+                  "printedName": "Goo.TvShowsRemoteDataManagerInputProtocol",
+                  "usr": "s:3Goo37TvShowsRemoteDataManagerInputProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo30TvShowsInteractorInputProtocolP17remoteDatamanagerAA0bc17RemoteDataManagereF0_pSgvp",
+          "mangledName": "$s3Goo30TvShowsInteractorInputProtocolP17remoteDatamanagerAA0bc17RemoteDataManagereF0_pSgvp",
+          "moduleName": "Goo",
+          "protocolReq": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsRemoteDataManagerInputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsRemoteDataManagerInputProtocol",
+                      "printedName": "Goo.TvShowsRemoteDataManagerInputProtocol",
+                      "usr": "s:3Goo37TvShowsRemoteDataManagerInputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo30TvShowsInteractorInputProtocolP17remoteDatamanagerAA0bc17RemoteDataManagereF0_pSgvg",
+              "mangledName": "$s3Goo30TvShowsInteractorInputProtocolP17remoteDatamanagerAA0bc17RemoteDataManagereF0_pSgvg",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsInteractorInputProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.TvShowsInteractorInputProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsRemoteDataManagerInputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsRemoteDataManagerInputProtocol",
+                      "printedName": "Goo.TvShowsRemoteDataManagerInputProtocol",
+                      "usr": "s:3Goo37TvShowsRemoteDataManagerInputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo30TvShowsInteractorInputProtocolP17remoteDatamanagerAA0bc17RemoteDataManagereF0_pSgvs",
+              "mangledName": "$s3Goo30TvShowsInteractorInputProtocolP17remoteDatamanagerAA0bc17RemoteDataManagereF0_pSgvs",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsInteractorInputProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.TvShowsInteractorInputProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo30TvShowsInteractorInputProtocolP17remoteDatamanagerAA0bc17RemoteDataManagereF0_pSgvM",
+              "mangledName": "$s3Goo30TvShowsInteractorInputProtocolP17remoteDatamanagerAA0bc17RemoteDataManagereF0_pSgvM",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsInteractorInputProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.TvShowsInteractorInputProtocol>",
+              "protocolReq": true,
+              "implicit": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "interactorGetData",
+          "printedName": "interactorGetData()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:3Goo30TvShowsInteractorInputProtocolP17interactorGetDatayyF",
+          "mangledName": "$s3Goo30TvShowsInteractorInputProtocolP17interactorGetDatayyF",
+          "moduleName": "Goo",
+          "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsInteractorInputProtocol>",
+          "sugared_genericSig": "<Self where Self : Goo.TvShowsInteractorInputProtocol>",
+          "protocolReq": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:3Goo30TvShowsInteractorInputProtocolP",
+      "mangledName": "$s3Goo30TvShowsInteractorInputProtocolP",
+      "moduleName": "Goo",
+      "genericSig": "<τ_0_0 : AnyObject>",
+      "sugared_genericSig": "<Self : AnyObject>"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "TvShowsDataManagerInputProtocol",
+      "printedName": "TvShowsDataManagerInputProtocol",
+      "declKind": "Protocol",
+      "usr": "s:3Goo31TvShowsDataManagerInputProtocolP",
+      "mangledName": "$s3Goo31TvShowsDataManagerInputProtocolP",
+      "moduleName": "Goo",
+      "genericSig": "<τ_0_0 : AnyObject>",
+      "sugared_genericSig": "<Self : AnyObject>"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "TvShowsRemoteDataManagerInputProtocol",
+      "printedName": "TvShowsRemoteDataManagerInputProtocol",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "remoteRequestHandler",
+          "printedName": "remoteRequestHandler",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.TvShowsRemoteDataManagerOutputProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TvShowsRemoteDataManagerOutputProtocol",
+                  "printedName": "Goo.TvShowsRemoteDataManagerOutputProtocol",
+                  "usr": "s:3Goo38TvShowsRemoteDataManagerOutputProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo37TvShowsRemoteDataManagerInputProtocolP20remoteRequestHandlerAA0bcdef6OutputH0_pSgvp",
+          "mangledName": "$s3Goo37TvShowsRemoteDataManagerInputProtocolP20remoteRequestHandlerAA0bcdef6OutputH0_pSgvp",
+          "moduleName": "Goo",
+          "protocolReq": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsRemoteDataManagerOutputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsRemoteDataManagerOutputProtocol",
+                      "printedName": "Goo.TvShowsRemoteDataManagerOutputProtocol",
+                      "usr": "s:3Goo38TvShowsRemoteDataManagerOutputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo37TvShowsRemoteDataManagerInputProtocolP20remoteRequestHandlerAA0bcdef6OutputH0_pSgvg",
+              "mangledName": "$s3Goo37TvShowsRemoteDataManagerInputProtocolP20remoteRequestHandlerAA0bcdef6OutputH0_pSgvg",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsRemoteDataManagerInputProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.TvShowsRemoteDataManagerInputProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsRemoteDataManagerOutputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsRemoteDataManagerOutputProtocol",
+                      "printedName": "Goo.TvShowsRemoteDataManagerOutputProtocol",
+                      "usr": "s:3Goo38TvShowsRemoteDataManagerOutputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo37TvShowsRemoteDataManagerInputProtocolP20remoteRequestHandlerAA0bcdef6OutputH0_pSgvs",
+              "mangledName": "$s3Goo37TvShowsRemoteDataManagerInputProtocolP20remoteRequestHandlerAA0bcdef6OutputH0_pSgvs",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsRemoteDataManagerInputProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.TvShowsRemoteDataManagerInputProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo37TvShowsRemoteDataManagerInputProtocolP20remoteRequestHandlerAA0bcdef6OutputH0_pSgvM",
+              "mangledName": "$s3Goo37TvShowsRemoteDataManagerInputProtocolP20remoteRequestHandlerAA0bcdef6OutputH0_pSgvM",
+              "moduleName": "Goo",
+              "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsRemoteDataManagerInputProtocol>",
+              "sugared_genericSig": "<Self where Self : Goo.TvShowsRemoteDataManagerInputProtocol>",
+              "protocolReq": true,
+              "implicit": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "externalGetData",
+          "printedName": "externalGetData()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:3Goo37TvShowsRemoteDataManagerInputProtocolP011externalGetE0yyF",
+          "mangledName": "$s3Goo37TvShowsRemoteDataManagerInputProtocolP011externalGetE0yyF",
+          "moduleName": "Goo",
+          "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsRemoteDataManagerInputProtocol>",
+          "sugared_genericSig": "<Self where Self : Goo.TvShowsRemoteDataManagerInputProtocol>",
+          "protocolReq": true,
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:3Goo37TvShowsRemoteDataManagerInputProtocolP",
+      "mangledName": "$s3Goo37TvShowsRemoteDataManagerInputProtocolP",
+      "moduleName": "Goo",
+      "genericSig": "<τ_0_0 : AnyObject>",
+      "sugared_genericSig": "<Self : AnyObject>"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "TvShowsRemoteDataManagerOutputProtocol",
+      "printedName": "TvShowsRemoteDataManagerOutputProtocol",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "remoteCallBackData",
+          "printedName": "remoteCallBackData(with:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Goo.TvShow]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TvShow",
+                  "printedName": "Goo.TvShow",
+                  "usr": "s:3Goo6TvShowV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:3Goo38TvShowsRemoteDataManagerOutputProtocolP014remoteCallBackE04withySayAA0B4ShowVG_tF",
+          "mangledName": "$s3Goo38TvShowsRemoteDataManagerOutputProtocolP014remoteCallBackE04withySayAA0B4ShowVG_tF",
+          "moduleName": "Goo",
+          "genericSig": "<τ_0_0 where τ_0_0 : Goo.TvShowsRemoteDataManagerOutputProtocol>",
+          "sugared_genericSig": "<Self where Self : Goo.TvShowsRemoteDataManagerOutputProtocol>",
+          "protocolReq": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:3Goo38TvShowsRemoteDataManagerOutputProtocolP",
+      "mangledName": "$s3Goo38TvShowsRemoteDataManagerOutputProtocolP",
+      "moduleName": "Goo",
+      "genericSig": "<τ_0_0 : AnyObject>",
+      "sugared_genericSig": "<Self : AnyObject>"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "TvShowsLocalDataManagerInputProtocol",
+      "printedName": "TvShowsLocalDataManagerInputProtocol",
+      "declKind": "Protocol",
+      "usr": "s:3Goo36TvShowsLocalDataManagerInputProtocolP",
+      "mangledName": "$s3Goo36TvShowsLocalDataManagerInputProtocolP",
+      "moduleName": "Goo",
+      "genericSig": "<τ_0_0 : AnyObject>",
+      "sugared_genericSig": "<Self : AnyObject>"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Goo",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "Goo"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "TvShowsWireFrame",
+      "printedName": "TvShowsWireFrame",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "createTvShowsModule",
+          "printedName": "createTvShowsModule()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIViewController",
+              "printedName": "UIKit.UIViewController",
+              "usr": "c:objc(cs)UIViewController"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:3Goo16TvShowsWireFrameC06createbC6ModuleSo16UIViewControllerCyFZ",
+          "mangledName": "$s3Goo16TvShowsWireFrameC06createbC6ModuleSo16UIViewControllerCyFZ",
+          "moduleName": "Goo",
+          "static": true,
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "mainStoryboard",
+          "printedName": "mainStoryboard",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIStoryboard",
+              "printedName": "UIKit.UIStoryboard",
+              "usr": "c:objc(cs)UIStoryboard"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo16TvShowsWireFrameC14mainStoryboardSo12UIStoryboardCvpZ",
+          "mangledName": "$s3Goo16TvShowsWireFrameC14mainStoryboardSo12UIStoryboardCvpZ",
+          "moduleName": "Goo",
+          "static": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIStoryboard",
+                  "printedName": "UIKit.UIStoryboard",
+                  "usr": "c:objc(cs)UIStoryboard"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo16TvShowsWireFrameC14mainStoryboardSo12UIStoryboardCvgZ",
+              "mangledName": "$s3Goo16TvShowsWireFrameC14mainStoryboardSo12UIStoryboardCvgZ",
+              "moduleName": "Goo",
+              "static": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "TvShowsWireFrame",
+              "printedName": "Goo.TvShowsWireFrame",
+              "usr": "s:3Goo16TvShowsWireFrameC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:3Goo16TvShowsWireFrameCACycfc",
+          "mangledName": "$s3Goo16TvShowsWireFrameCACycfc",
+          "moduleName": "Goo",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:3Goo16TvShowsWireFrameC",
+      "mangledName": "$s3Goo16TvShowsWireFrameC",
+      "moduleName": "Goo",
+      "isOpen": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "TvShowsWireFrameProtocol",
+          "printedName": "TvShowsWireFrameProtocol",
+          "usr": "s:3Goo24TvShowsWireFrameProtocolP",
+          "mangledName": "$s3Goo24TvShowsWireFrameProtocolP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "Goo",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ShowsTableViewCell",
+      "printedName": "ShowsTableViewCell",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "identifier",
+          "printedName": "identifier",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo18ShowsTableViewCellC10identifierSSvpZ",
+          "mangledName": "$s3Goo18ShowsTableViewCellC10identifierSSvpZ",
+          "moduleName": "Goo",
+          "static": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo18ShowsTableViewCellC10identifierSSvgZ",
+              "mangledName": "$s3Goo18ShowsTableViewCellC10identifierSSvgZ",
+              "moduleName": "Goo",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(style:reuseIdentifier:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ShowsTableViewCell",
+              "printedName": "Goo.ShowsTableViewCell",
+              "usr": "c:@M@Goo@objc(cs)ShowsTableViewCell"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CellStyle",
+              "printedName": "UIKit.UITableViewCell.CellStyle",
+              "usr": "c:@E@UITableViewCellStyle"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Goo@objc(cs)ShowsTableViewCell(im)initWithStyle:reuseIdentifier:",
+          "mangledName": "$s3Goo18ShowsTableViewCellC5style15reuseIdentifierACSo07UITabledE5StyleV_SSSgtcfc",
+          "moduleName": "Goo",
+          "overriding": true,
+          "objc_name": "initWithStyle:reuseIdentifier:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.ShowsTableViewCell?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ShowsTableViewCell",
+                  "printedName": "Goo.ShowsTableViewCell",
+                  "usr": "c:@M@Goo@objc(cs)ShowsTableViewCell"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Goo@objc(cs)ShowsTableViewCell(im)initWithCoder:",
+          "mangledName": "$s3Goo18ShowsTableViewCellC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "Goo",
+          "overriding": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Var",
+          "name": "photoImg",
+          "printedName": "photoImg",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIImageView",
+              "printedName": "UIKit.UIImageView",
+              "usr": "c:objc(cs)UIImageView"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo18ShowsTableViewCellC8photoImgSo07UIImageD0Cvp",
+          "mangledName": "$s3Goo18ShowsTableViewCellC8photoImgSo07UIImageD0Cvp",
+          "moduleName": "Goo",
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIImageView",
+                  "printedName": "UIKit.UIImageView",
+                  "usr": "c:objc(cs)UIImageView"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo18ShowsTableViewCellC8photoImgSo07UIImageD0Cvg",
+              "mangledName": "$s3Goo18ShowsTableViewCellC8photoImgSo07UIImageD0Cvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "nameLabel",
+          "printedName": "nameLabel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UILabel",
+              "printedName": "UIKit.UILabel",
+              "usr": "c:objc(cs)UILabel"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo18ShowsTableViewCellC9nameLabelSo7UILabelCvp",
+          "mangledName": "$s3Goo18ShowsTableViewCellC9nameLabelSo7UILabelCvp",
+          "moduleName": "Goo",
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UILabel",
+                  "printedName": "UIKit.UILabel",
+                  "usr": "c:objc(cs)UILabel"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo18ShowsTableViewCellC9nameLabelSo7UILabelCvg",
+              "mangledName": "$s3Goo18ShowsTableViewCellC9nameLabelSo7UILabelCvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "iconArrow",
+          "printedName": "iconArrow",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIImageView",
+              "printedName": "UIKit.UIImageView",
+              "usr": "c:objc(cs)UIImageView"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo18ShowsTableViewCellC9iconArrowSo07UIImageD0Cvp",
+          "mangledName": "$s3Goo18ShowsTableViewCellC9iconArrowSo07UIImageD0Cvp",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIImageView",
+                  "printedName": "UIKit.UIImageView",
+                  "usr": "c:objc(cs)UIImageView"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo18ShowsTableViewCellC9iconArrowSo07UIImageD0Cvg",
+              "mangledName": "$s3Goo18ShowsTableViewCellC9iconArrowSo07UIImageD0Cvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIImageView",
+                  "printedName": "UIKit.UIImageView",
+                  "usr": "c:objc(cs)UIImageView"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo18ShowsTableViewCellC9iconArrowSo07UIImageD0Cvs",
+              "mangledName": "$s3Goo18ShowsTableViewCellC9iconArrowSo07UIImageD0Cvs",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo18ShowsTableViewCellC9iconArrowSo07UIImageD0CvM",
+              "mangledName": "$s3Goo18ShowsTableViewCellC9iconArrowSo07UIImageD0CvM",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "setUpConstraints",
+          "printedName": "setUpConstraints()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:3Goo18ShowsTableViewCellC16setUpConstraintsyyF",
+          "mangledName": "$s3Goo18ShowsTableViewCellC16setUpConstraintsyyF",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@Goo@objc(cs)ShowsTableViewCell",
+      "mangledName": "$s3Goo18ShowsTableViewCellC",
+      "moduleName": "Goo",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UITableViewCell",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UITableViewCell",
+        "UIKit.UIView",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "__DefaultCustomPlaygroundQuickLookable",
+          "printedName": "__DefaultCustomPlaygroundQuickLookable",
+          "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+          "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
       "name": "UIKit",
       "printedName": "UIKit",
       "declKind": "Import",
@@ -325,6 +2153,913 @@
           "printedName": "HomeLocalDataManagerInputProtocol",
           "usr": "s:3Goo33HomeLocalDataManagerInputProtocolP",
           "mangledName": "$s3Goo33HomeLocalDataManagerInputProtocolP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Goo",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "Goo"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "TvShowsView",
+      "printedName": "TvShowsView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "presenter",
+          "printedName": "presenter",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.TvShowsPresenterProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TvShowsPresenterProtocol",
+                  "printedName": "Goo.TvShowsPresenterProtocol",
+                  "usr": "s:3Goo24TvShowsPresenterProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo11TvShowsViewC9presenterAA0bC17PresenterProtocol_pSgvp",
+          "mangledName": "$s3Goo11TvShowsViewC9presenterAA0bC17PresenterProtocol_pSgvp",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsPresenterProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsPresenterProtocol",
+                      "printedName": "Goo.TvShowsPresenterProtocol",
+                      "usr": "s:3Goo24TvShowsPresenterProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo11TvShowsViewC9presenterAA0bC17PresenterProtocol_pSgvg",
+              "mangledName": "$s3Goo11TvShowsViewC9presenterAA0bC17PresenterProtocol_pSgvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsPresenterProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsPresenterProtocol",
+                      "printedName": "Goo.TvShowsPresenterProtocol",
+                      "usr": "s:3Goo24TvShowsPresenterProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo11TvShowsViewC9presenterAA0bC17PresenterProtocol_pSgvs",
+              "mangledName": "$s3Goo11TvShowsViewC9presenterAA0bC17PresenterProtocol_pSgvs",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo11TvShowsViewC9presenterAA0bC17PresenterProtocol_pSgvM",
+              "mangledName": "$s3Goo11TvShowsViewC9presenterAA0bC17PresenterProtocol_pSgvM",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "datosView",
+          "printedName": "datosView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Goo.TvShow]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TvShow",
+                  "printedName": "Goo.TvShow",
+                  "usr": "s:3Goo6TvShowV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo11TvShowsViewC05datosD0SayAA0B4ShowVGvp",
+          "mangledName": "$s3Goo11TvShowsViewC05datosD0SayAA0B4ShowVGvp",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Goo.TvShow]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShow",
+                      "printedName": "Goo.TvShow",
+                      "usr": "s:3Goo6TvShowV"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo11TvShowsViewC05datosD0SayAA0B4ShowVGvg",
+              "mangledName": "$s3Goo11TvShowsViewC05datosD0SayAA0B4ShowVGvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Goo.TvShow]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShow",
+                      "printedName": "Goo.TvShow",
+                      "usr": "s:3Goo6TvShowV"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo11TvShowsViewC05datosD0SayAA0B4ShowVGvs",
+              "mangledName": "$s3Goo11TvShowsViewC05datosD0SayAA0B4ShowVGvs",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo11TvShowsViewC05datosD0SayAA0B4ShowVGvM",
+              "mangledName": "$s3Goo11TvShowsViewC05datosD0SayAA0B4ShowVGvM",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "tableShows",
+          "printedName": "tableShows",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo11TvShowsViewC05tableC0So07UITableD0Cvp",
+          "mangledName": "$s3Goo11TvShowsViewC05tableC0So07UITableD0Cvp",
+          "moduleName": "Goo",
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UITableView",
+                  "printedName": "UIKit.UITableView",
+                  "usr": "c:objc(cs)UITableView"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo11TvShowsViewC05tableC0So07UITableD0Cvg",
+              "mangledName": "$s3Goo11TvShowsViewC05tableC0So07UITableD0Cvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Goo@objc(cs)TvShowsView(im)viewDidLoad",
+          "mangledName": "$s3Goo11TvShowsViewC11viewDidLoadyyF",
+          "moduleName": "Goo",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setUpView",
+          "printedName": "setUpView()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:3Goo11TvShowsViewC05setUpD0yyF",
+          "mangledName": "$s3Goo11TvShowsViewC05setUpD0yyF",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:heightForRowAt:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "IndexPath",
+              "printedName": "Foundation.IndexPath",
+              "usr": "s:10Foundation9IndexPathV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Goo@objc(cs)TvShowsView(im)tableView:heightForRowAtIndexPath:",
+          "mangledName": "$s3Goo11TvShowsViewC05tableD0_14heightForRowAt12CoreGraphics7CGFloatVSo07UITableD0C_10Foundation9IndexPathVtF",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "objc_name": "tableView:heightForRowAtIndexPath:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:numberOfRowsInSection:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Goo@objc(cs)TvShowsView(im)tableView:numberOfRowsInSection:",
+          "mangledName": "$s3Goo11TvShowsViewC05tableD0_21numberOfRowsInSectionSiSo07UITableD0C_SitF",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "objc_name": "tableView:numberOfRowsInSection:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:cellForRowAt:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UITableViewCell",
+              "printedName": "UIKit.UITableViewCell",
+              "usr": "c:objc(cs)UITableViewCell"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "IndexPath",
+              "printedName": "Foundation.IndexPath",
+              "usr": "s:10Foundation9IndexPathV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Goo@objc(cs)TvShowsView(im)tableView:cellForRowAtIndexPath:",
+          "mangledName": "$s3Goo11TvShowsViewC05tableD0_12cellForRowAtSo07UITableD4CellCSo0jD0C_10Foundation9IndexPathVtF",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "objc_name": "tableView:cellForRowAtIndexPath:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "TvShowsView",
+              "printedName": "Goo.TvShowsView",
+              "usr": "c:@M@Goo@objc(cs)TvShowsView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Goo@objc(cs)TvShowsView(im)initWithNibName:bundle:",
+          "mangledName": "$s3Goo11TvShowsViewC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "Goo",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.TvShowsView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TvShowsView",
+                  "printedName": "Goo.TvShowsView",
+                  "usr": "c:@M@Goo@objc(cs)TvShowsView"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Goo@objc(cs)TvShowsView(im)initWithCoder:",
+          "mangledName": "$s3Goo11TvShowsViewC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "Goo",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "presentToView",
+          "printedName": "presentToView(recev:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Goo.TvShow]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TvShow",
+                  "printedName": "Goo.TvShow",
+                  "usr": "s:3Goo6TvShowV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:3Goo11TvShowsViewC09presentToD05recevySayAA0B4ShowVG_tF",
+          "mangledName": "$s3Goo11TvShowsViewC09presentToD05recevySayAA0B4ShowVG_tF",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@Goo@objc(cs)TvShowsView",
+      "mangledName": "$s3Goo11TvShowsViewC",
+      "moduleName": "Goo",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIViewController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "TvShowsViewProtocol",
+          "printedName": "TvShowsViewProtocol",
+          "usr": "s:3Goo19TvShowsViewProtocolP",
+          "mangledName": "$s3Goo19TvShowsViewProtocolP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Goo",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "TvShowsLocalDataManager",
+      "printedName": "TvShowsLocalDataManager",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "TvShowsLocalDataManager",
+              "printedName": "Goo.TvShowsLocalDataManager",
+              "usr": "s:3Goo23TvShowsLocalDataManagerC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:3Goo23TvShowsLocalDataManagerCACycfc",
+          "mangledName": "$s3Goo23TvShowsLocalDataManagerCACycfc",
+          "moduleName": "Goo",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:3Goo23TvShowsLocalDataManagerC",
+      "mangledName": "$s3Goo23TvShowsLocalDataManagerC",
+      "moduleName": "Goo",
+      "isOpen": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "TvShowsLocalDataManagerInputProtocol",
+          "printedName": "TvShowsLocalDataManagerInputProtocol",
+          "usr": "s:3Goo36TvShowsLocalDataManagerInputProtocolP",
+          "mangledName": "$s3Goo36TvShowsLocalDataManagerInputProtocolP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Goo",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "TvShowsRemoteDataManager",
+      "printedName": "TvShowsRemoteDataManager",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "remoteRequestHandler",
+          "printedName": "remoteRequestHandler",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.TvShowsRemoteDataManagerOutputProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TvShowsRemoteDataManagerOutputProtocol",
+                  "printedName": "Goo.TvShowsRemoteDataManagerOutputProtocol",
+                  "usr": "s:3Goo38TvShowsRemoteDataManagerOutputProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo24TvShowsRemoteDataManagerC20remoteRequestHandlerAA0bcdeF14OutputProtocol_pSgvp",
+          "mangledName": "$s3Goo24TvShowsRemoteDataManagerC20remoteRequestHandlerAA0bcdeF14OutputProtocol_pSgvp",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsRemoteDataManagerOutputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsRemoteDataManagerOutputProtocol",
+                      "printedName": "Goo.TvShowsRemoteDataManagerOutputProtocol",
+                      "usr": "s:3Goo38TvShowsRemoteDataManagerOutputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo24TvShowsRemoteDataManagerC20remoteRequestHandlerAA0bcdeF14OutputProtocol_pSgvg",
+              "mangledName": "$s3Goo24TvShowsRemoteDataManagerC20remoteRequestHandlerAA0bcdeF14OutputProtocol_pSgvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsRemoteDataManagerOutputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsRemoteDataManagerOutputProtocol",
+                      "printedName": "Goo.TvShowsRemoteDataManagerOutputProtocol",
+                      "usr": "s:3Goo38TvShowsRemoteDataManagerOutputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo24TvShowsRemoteDataManagerC20remoteRequestHandlerAA0bcdeF14OutputProtocol_pSgvs",
+              "mangledName": "$s3Goo24TvShowsRemoteDataManagerC20remoteRequestHandlerAA0bcdeF14OutputProtocol_pSgvs",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo24TvShowsRemoteDataManagerC20remoteRequestHandlerAA0bcdeF14OutputProtocol_pSgvM",
+              "mangledName": "$s3Goo24TvShowsRemoteDataManagerC20remoteRequestHandlerAA0bcdeF14OutputProtocol_pSgvM",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "externalGetData",
+          "printedName": "externalGetData()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:3Goo24TvShowsRemoteDataManagerC011externalGetE0yyF",
+          "mangledName": "$s3Goo24TvShowsRemoteDataManagerC011externalGetE0yyF",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "TvShowsRemoteDataManager",
+              "printedName": "Goo.TvShowsRemoteDataManager",
+              "usr": "s:3Goo24TvShowsRemoteDataManagerC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:3Goo24TvShowsRemoteDataManagerCACycfc",
+          "mangledName": "$s3Goo24TvShowsRemoteDataManagerCACycfc",
+          "moduleName": "Goo",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:3Goo24TvShowsRemoteDataManagerC",
+      "mangledName": "$s3Goo24TvShowsRemoteDataManagerC",
+      "moduleName": "Goo",
+      "isOpen": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "TvShowsRemoteDataManagerInputProtocol",
+          "printedName": "TvShowsRemoteDataManagerInputProtocol",
+          "usr": "s:3Goo37TvShowsRemoteDataManagerInputProtocolP",
+          "mangledName": "$s3Goo37TvShowsRemoteDataManagerInputProtocolP"
         }
       ]
     },
@@ -2330,34 +5065,6 @@
       "printedName": "FirtsViewController",
       "children": [
         {
-          "kind": "Var",
-          "name": "loginBtn",
-          "printedName": "loginBtn",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "UIButton",
-              "printedName": "UIKit.UIButton",
-              "usr": "c:objc(cs)UIButton"
-            }
-          ],
-          "declKind": "Var",
-          "usr": "s:3Goo19FirtsViewControllerC8loginBtn33_12D306A9BF63722BCDE8927EA3499BAALLSo8UIButtonCvp",
-          "mangledName": "$s3Goo19FirtsViewControllerC8loginBtn33_12D306A9BF63722BCDE8927EA3499BAALLSo8UIButtonCvp",
-          "moduleName": "Goo",
-          "isInternal": true,
-          "declAttributes": [
-            "Custom",
-            "HasInitialValue",
-            "Final",
-            "HasStorage",
-            "AccessControl"
-          ],
-          "fixedbinaryorder": 0,
-          "isLet": true,
-          "hasStorage": true
-        },
-        {
           "kind": "Function",
           "name": "viewDidLoad",
           "printedName": "viewDidLoad()",
@@ -2380,28 +5087,6 @@
             "ObjC",
             "Custom",
             "Override"
-          ],
-          "funcSelfKind": "NonMutating"
-        },
-        {
-          "kind": "Function",
-          "name": "goToLogin",
-          "printedName": "goToLogin()",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Void",
-              "printedName": "()"
-            }
-          ],
-          "declKind": "Func",
-          "usr": "c:@M@Goo@objc(cs)FirtsViewController(im)goToLogin",
-          "mangledName": "$s3Goo19FirtsViewControllerC9goToLoginyyF",
-          "moduleName": "Goo",
-          "isOpen": true,
-          "declAttributes": [
-            "Custom",
-            "ObjC"
           ],
           "funcSelfKind": "NonMutating"
         },
@@ -2763,6 +5448,599 @@
           "printedName": "CustomDebugStringConvertible",
           "usr": "s:s28CustomDebugStringConvertibleP",
           "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Goo",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "TvShowsInteractor",
+      "printedName": "TvShowsInteractor",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "presenter",
+          "printedName": "presenter",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "Goo.TvShowsInteractorOutputProtocol?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo17TvShowsInteractorC9presenterAA0bcD14OutputProtocol_pSgvp",
+          "mangledName": "$s3Goo17TvShowsInteractorC9presenterAA0bcD14OutputProtocol_pSgvp",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "ReferenceOwnership",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 0,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsInteractorOutputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsInteractorOutputProtocol",
+                      "printedName": "Goo.TvShowsInteractorOutputProtocol",
+                      "usr": "s:3Goo31TvShowsInteractorOutputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo17TvShowsInteractorC9presenterAA0bcD14OutputProtocol_pSgvg",
+              "mangledName": "$s3Goo17TvShowsInteractorC9presenterAA0bcD14OutputProtocol_pSgvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsInteractorOutputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsInteractorOutputProtocol",
+                      "printedName": "Goo.TvShowsInteractorOutputProtocol",
+                      "usr": "s:3Goo31TvShowsInteractorOutputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo17TvShowsInteractorC9presenterAA0bcD14OutputProtocol_pSgvs",
+              "mangledName": "$s3Goo17TvShowsInteractorC9presenterAA0bcD14OutputProtocol_pSgvs",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo17TvShowsInteractorC9presenterAA0bcD14OutputProtocol_pSgvM",
+              "mangledName": "$s3Goo17TvShowsInteractorC9presenterAA0bcD14OutputProtocol_pSgvM",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "localDatamanager",
+          "printedName": "localDatamanager",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.TvShowsLocalDataManagerInputProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TvShowsLocalDataManagerInputProtocol",
+                  "printedName": "Goo.TvShowsLocalDataManagerInputProtocol",
+                  "usr": "s:3Goo36TvShowsLocalDataManagerInputProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo17TvShowsInteractorC16localDatamanagerAA0bC29LocalDataManagerInputProtocol_pSgvp",
+          "mangledName": "$s3Goo17TvShowsInteractorC16localDatamanagerAA0bC29LocalDataManagerInputProtocol_pSgvp",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsLocalDataManagerInputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsLocalDataManagerInputProtocol",
+                      "printedName": "Goo.TvShowsLocalDataManagerInputProtocol",
+                      "usr": "s:3Goo36TvShowsLocalDataManagerInputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo17TvShowsInteractorC16localDatamanagerAA0bC29LocalDataManagerInputProtocol_pSgvg",
+              "mangledName": "$s3Goo17TvShowsInteractorC16localDatamanagerAA0bC29LocalDataManagerInputProtocol_pSgvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsLocalDataManagerInputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsLocalDataManagerInputProtocol",
+                      "printedName": "Goo.TvShowsLocalDataManagerInputProtocol",
+                      "usr": "s:3Goo36TvShowsLocalDataManagerInputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo17TvShowsInteractorC16localDatamanagerAA0bC29LocalDataManagerInputProtocol_pSgvs",
+              "mangledName": "$s3Goo17TvShowsInteractorC16localDatamanagerAA0bC29LocalDataManagerInputProtocol_pSgvs",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo17TvShowsInteractorC16localDatamanagerAA0bC29LocalDataManagerInputProtocol_pSgvM",
+              "mangledName": "$s3Goo17TvShowsInteractorC16localDatamanagerAA0bC29LocalDataManagerInputProtocol_pSgvM",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "remoteDatamanager",
+          "printedName": "remoteDatamanager",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.TvShowsRemoteDataManagerInputProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TvShowsRemoteDataManagerInputProtocol",
+                  "printedName": "Goo.TvShowsRemoteDataManagerInputProtocol",
+                  "usr": "s:3Goo37TvShowsRemoteDataManagerInputProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo17TvShowsInteractorC17remoteDatamanagerAA0bC30RemoteDataManagerInputProtocol_pSgvp",
+          "mangledName": "$s3Goo17TvShowsInteractorC17remoteDatamanagerAA0bC30RemoteDataManagerInputProtocol_pSgvp",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsRemoteDataManagerInputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsRemoteDataManagerInputProtocol",
+                      "printedName": "Goo.TvShowsRemoteDataManagerInputProtocol",
+                      "usr": "s:3Goo37TvShowsRemoteDataManagerInputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo17TvShowsInteractorC17remoteDatamanagerAA0bC30RemoteDataManagerInputProtocol_pSgvg",
+              "mangledName": "$s3Goo17TvShowsInteractorC17remoteDatamanagerAA0bC30RemoteDataManagerInputProtocol_pSgvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsRemoteDataManagerInputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsRemoteDataManagerInputProtocol",
+                      "printedName": "Goo.TvShowsRemoteDataManagerInputProtocol",
+                      "usr": "s:3Goo37TvShowsRemoteDataManagerInputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo17TvShowsInteractorC17remoteDatamanagerAA0bC30RemoteDataManagerInputProtocol_pSgvs",
+              "mangledName": "$s3Goo17TvShowsInteractorC17remoteDatamanagerAA0bC30RemoteDataManagerInputProtocol_pSgvs",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo17TvShowsInteractorC17remoteDatamanagerAA0bC30RemoteDataManagerInputProtocol_pSgvM",
+              "mangledName": "$s3Goo17TvShowsInteractorC17remoteDatamanagerAA0bC30RemoteDataManagerInputProtocol_pSgvM",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "datos",
+          "printedName": "datos",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Goo.TvShow]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TvShow",
+                  "printedName": "Goo.TvShow",
+                  "usr": "s:3Goo6TvShowV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo17TvShowsInteractorC5datosSayAA0B4ShowVGvp",
+          "mangledName": "$s3Goo17TvShowsInteractorC5datosSayAA0B4ShowVGvp",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Goo.TvShow]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShow",
+                      "printedName": "Goo.TvShow",
+                      "usr": "s:3Goo6TvShowV"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo17TvShowsInteractorC5datosSayAA0B4ShowVGvg",
+              "mangledName": "$s3Goo17TvShowsInteractorC5datosSayAA0B4ShowVGvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Goo.TvShow]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShow",
+                      "printedName": "Goo.TvShow",
+                      "usr": "s:3Goo6TvShowV"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo17TvShowsInteractorC5datosSayAA0B4ShowVGvs",
+              "mangledName": "$s3Goo17TvShowsInteractorC5datosSayAA0B4ShowVGvs",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo17TvShowsInteractorC5datosSayAA0B4ShowVGvM",
+              "mangledName": "$s3Goo17TvShowsInteractorC5datosSayAA0B4ShowVGvM",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "interactorGetData",
+          "printedName": "interactorGetData()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:3Goo17TvShowsInteractorC17interactorGetDatayyF",
+          "mangledName": "$s3Goo17TvShowsInteractorC17interactorGetDatayyF",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "TvShowsInteractor",
+              "printedName": "Goo.TvShowsInteractor",
+              "usr": "s:3Goo17TvShowsInteractorC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:3Goo17TvShowsInteractorCACycfc",
+          "mangledName": "$s3Goo17TvShowsInteractorCACycfc",
+          "moduleName": "Goo",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "remoteCallBackData",
+          "printedName": "remoteCallBackData(with:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Goo.TvShow]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TvShow",
+                  "printedName": "Goo.TvShow",
+                  "usr": "s:3Goo6TvShowV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:3Goo17TvShowsInteractorC18remoteCallBackData4withySayAA0B4ShowVG_tF",
+          "mangledName": "$s3Goo17TvShowsInteractorC18remoteCallBackData4withySayAA0B4ShowVG_tF",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:3Goo17TvShowsInteractorC",
+      "mangledName": "$s3Goo17TvShowsInteractorC",
+      "moduleName": "Goo",
+      "isOpen": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "TvShowsInteractorInputProtocol",
+          "printedName": "TvShowsInteractorInputProtocol",
+          "usr": "s:3Goo30TvShowsInteractorInputProtocolP",
+          "mangledName": "$s3Goo30TvShowsInteractorInputProtocolP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "TvShowsRemoteDataManagerOutputProtocol",
+          "printedName": "TvShowsRemoteDataManagerOutputProtocol",
+          "usr": "s:3Goo38TvShowsRemoteDataManagerOutputProtocolP",
+          "mangledName": "$s3Goo38TvShowsRemoteDataManagerOutputProtocolP"
         }
       ]
     },
@@ -3391,6 +6669,1289 @@
       ]
     },
     {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Goo",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "TvShow",
+      "printedName": "TvShow",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "name",
+          "printedName": "name",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo6TvShowV4nameSSSgvp",
+          "mangledName": "$s3Goo6TvShowV4nameSSSgvp",
+          "moduleName": "Goo",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo6TvShowV4nameSSSgvg",
+              "mangledName": "$s3Goo6TvShowV4nameSSSgvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo6TvShowV4nameSSSgvs",
+              "mangledName": "$s3Goo6TvShowV4nameSSSgvs",
+              "moduleName": "Goo",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo6TvShowV4nameSSSgvM",
+              "mangledName": "$s3Goo6TvShowV4nameSSSgvM",
+              "moduleName": "Goo",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "image",
+          "printedName": "image",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.Image?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Image",
+                  "printedName": "Goo.Image",
+                  "usr": "s:3Goo5ImageV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo6TvShowV5imageAA5ImageVSgvp",
+          "mangledName": "$s3Goo6TvShowV5imageAA5ImageVSgvp",
+          "moduleName": "Goo",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.Image?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Image",
+                      "printedName": "Goo.Image",
+                      "usr": "s:3Goo5ImageV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo6TvShowV5imageAA5ImageVSgvg",
+              "mangledName": "$s3Goo6TvShowV5imageAA5ImageVSgvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.Image?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Image",
+                      "printedName": "Goo.Image",
+                      "usr": "s:3Goo5ImageV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo6TvShowV5imageAA5ImageVSgvs",
+              "mangledName": "$s3Goo6TvShowV5imageAA5ImageVSgvs",
+              "moduleName": "Goo",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo6TvShowV5imageAA5ImageVSgvM",
+              "mangledName": "$s3Goo6TvShowV5imageAA5ImageVSgvM",
+              "moduleName": "Goo",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(name:image:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "TvShow",
+              "printedName": "Goo.TvShow",
+              "usr": "s:3Goo6TvShowV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.Image?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Image",
+                  "printedName": "Goo.Image",
+                  "usr": "s:3Goo5ImageV"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:3Goo6TvShowV4name5imageACSSSg_AA5ImageVSgtcfc",
+          "mangledName": "$s3Goo6TvShowV4name5imageACSSSg_AA5ImageVSgtcfc",
+          "moduleName": "Goo",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "TvShow",
+              "printedName": "Goo.TvShow",
+              "usr": "s:3Goo6TvShowV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:3Goo6TvShowVACycfc",
+          "mangledName": "$s3Goo6TvShowVACycfc",
+          "moduleName": "Goo",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "TvShow",
+              "printedName": "Goo.TvShow",
+              "usr": "s:3Goo6TvShowV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Decoder",
+              "printedName": "Swift.Decoder",
+              "usr": "s:s7DecoderP"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:3Goo6TvShowV4fromACs7Decoder_p_tKcfc",
+          "mangledName": "$s3Goo6TvShowV4fromACs7Decoder_p_tKcfc",
+          "moduleName": "Goo",
+          "implicit": true,
+          "throwing": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "encode",
+          "printedName": "encode(to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Encoder",
+              "printedName": "Swift.Encoder",
+              "usr": "s:s7EncoderP"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:3Goo6TvShowV6encode2toys7Encoder_p_tKF",
+          "mangledName": "$s3Goo6TvShowV6encode2toys7Encoder_p_tKF",
+          "moduleName": "Goo",
+          "implicit": true,
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:3Goo6TvShowV",
+      "mangledName": "$s3Goo6TvShowV",
+      "moduleName": "Goo",
+      "declAttributes": [
+        "RawDocComment"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Image",
+      "printedName": "Image",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "medium",
+          "printedName": "medium",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo5ImageV6mediumSSSgvp",
+          "mangledName": "$s3Goo5ImageV6mediumSSSgvp",
+          "moduleName": "Goo",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo5ImageV6mediumSSSgvg",
+              "mangledName": "$s3Goo5ImageV6mediumSSSgvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo5ImageV6mediumSSSgvs",
+              "mangledName": "$s3Goo5ImageV6mediumSSSgvs",
+              "moduleName": "Goo",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo5ImageV6mediumSSSgvM",
+              "mangledName": "$s3Goo5ImageV6mediumSSSgvM",
+              "moduleName": "Goo",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "original",
+          "printedName": "original",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo5ImageV8originalSSSgvp",
+          "mangledName": "$s3Goo5ImageV8originalSSSgvp",
+          "moduleName": "Goo",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo5ImageV8originalSSSgvg",
+              "mangledName": "$s3Goo5ImageV8originalSSSgvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo5ImageV8originalSSSgvs",
+              "mangledName": "$s3Goo5ImageV8originalSSSgvs",
+              "moduleName": "Goo",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo5ImageV8originalSSSgvM",
+              "mangledName": "$s3Goo5ImageV8originalSSSgvM",
+              "moduleName": "Goo",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(medium:original:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Image",
+              "printedName": "Goo.Image",
+              "usr": "s:3Goo5ImageV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:3Goo5ImageV6medium8originalACSSSg_AFtcfc",
+          "mangledName": "$s3Goo5ImageV6medium8originalACSSSg_AFtcfc",
+          "moduleName": "Goo",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Image",
+              "printedName": "Goo.Image",
+              "usr": "s:3Goo5ImageV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:3Goo5ImageVACycfc",
+          "mangledName": "$s3Goo5ImageVACycfc",
+          "moduleName": "Goo",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Image",
+              "printedName": "Goo.Image",
+              "usr": "s:3Goo5ImageV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Decoder",
+              "printedName": "Swift.Decoder",
+              "usr": "s:s7DecoderP"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:3Goo5ImageV4fromACs7Decoder_p_tKcfc",
+          "mangledName": "$s3Goo5ImageV4fromACs7Decoder_p_tKcfc",
+          "moduleName": "Goo",
+          "implicit": true,
+          "throwing": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "encode",
+          "printedName": "encode(to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Encoder",
+              "printedName": "Swift.Encoder",
+              "usr": "s:s7EncoderP"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:3Goo5ImageV6encode2toys7Encoder_p_tKF",
+          "mangledName": "$s3Goo5ImageV6encode2toys7Encoder_p_tKF",
+          "moduleName": "Goo",
+          "implicit": true,
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:3Goo5ImageV",
+      "mangledName": "$s3Goo5ImageV",
+      "moduleName": "Goo",
+      "declAttributes": [
+        "RawDocComment"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Goo",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "TvShowsPresenter",
+      "printedName": "TvShowsPresenter",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "view",
+          "printedName": "view",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "Goo.TvShowsViewProtocol?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo16TvShowsPresenterC4viewAA0bC12ViewProtocol_pSgvp",
+          "mangledName": "$s3Goo16TvShowsPresenterC4viewAA0bC12ViewProtocol_pSgvp",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "ReferenceOwnership",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 0,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsViewProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsViewProtocol",
+                      "printedName": "Goo.TvShowsViewProtocol",
+                      "usr": "s:3Goo19TvShowsViewProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo16TvShowsPresenterC4viewAA0bC12ViewProtocol_pSgvg",
+              "mangledName": "$s3Goo16TvShowsPresenterC4viewAA0bC12ViewProtocol_pSgvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsViewProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsViewProtocol",
+                      "printedName": "Goo.TvShowsViewProtocol",
+                      "usr": "s:3Goo19TvShowsViewProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo16TvShowsPresenterC4viewAA0bC12ViewProtocol_pSgvs",
+              "mangledName": "$s3Goo16TvShowsPresenterC4viewAA0bC12ViewProtocol_pSgvs",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo16TvShowsPresenterC4viewAA0bC12ViewProtocol_pSgvM",
+              "mangledName": "$s3Goo16TvShowsPresenterC4viewAA0bC12ViewProtocol_pSgvM",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "interactor",
+          "printedName": "interactor",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.TvShowsInteractorInputProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TvShowsInteractorInputProtocol",
+                  "printedName": "Goo.TvShowsInteractorInputProtocol",
+                  "usr": "s:3Goo30TvShowsInteractorInputProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo16TvShowsPresenterC10interactorAA0bC23InteractorInputProtocol_pSgvp",
+          "mangledName": "$s3Goo16TvShowsPresenterC10interactorAA0bC23InteractorInputProtocol_pSgvp",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsInteractorInputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsInteractorInputProtocol",
+                      "printedName": "Goo.TvShowsInteractorInputProtocol",
+                      "usr": "s:3Goo30TvShowsInteractorInputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo16TvShowsPresenterC10interactorAA0bC23InteractorInputProtocol_pSgvg",
+              "mangledName": "$s3Goo16TvShowsPresenterC10interactorAA0bC23InteractorInputProtocol_pSgvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsInteractorInputProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsInteractorInputProtocol",
+                      "printedName": "Goo.TvShowsInteractorInputProtocol",
+                      "usr": "s:3Goo30TvShowsInteractorInputProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo16TvShowsPresenterC10interactorAA0bC23InteractorInputProtocol_pSgvs",
+              "mangledName": "$s3Goo16TvShowsPresenterC10interactorAA0bC23InteractorInputProtocol_pSgvs",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo16TvShowsPresenterC10interactorAA0bC23InteractorInputProtocol_pSgvM",
+              "mangledName": "$s3Goo16TvShowsPresenterC10interactorAA0bC23InteractorInputProtocol_pSgvM",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "wireFrame",
+          "printedName": "wireFrame",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Goo.TvShowsWireFrameProtocol?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TvShowsWireFrameProtocol",
+                  "printedName": "Goo.TvShowsWireFrameProtocol",
+                  "usr": "s:3Goo24TvShowsWireFrameProtocolP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo16TvShowsPresenterC9wireFrameAA0bc4WireF8Protocol_pSgvp",
+          "mangledName": "$s3Goo16TvShowsPresenterC9wireFrameAA0bc4WireF8Protocol_pSgvp",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsWireFrameProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsWireFrameProtocol",
+                      "printedName": "Goo.TvShowsWireFrameProtocol",
+                      "usr": "s:3Goo24TvShowsWireFrameProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo16TvShowsPresenterC9wireFrameAA0bc4WireF8Protocol_pSgvg",
+              "mangledName": "$s3Goo16TvShowsPresenterC9wireFrameAA0bc4WireF8Protocol_pSgvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Goo.TvShowsWireFrameProtocol?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TvShowsWireFrameProtocol",
+                      "printedName": "Goo.TvShowsWireFrameProtocol",
+                      "usr": "s:3Goo24TvShowsWireFrameProtocolP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo16TvShowsPresenterC9wireFrameAA0bc4WireF8Protocol_pSgvs",
+              "mangledName": "$s3Goo16TvShowsPresenterC9wireFrameAA0bc4WireF8Protocol_pSgvs",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo16TvShowsPresenterC9wireFrameAA0bc4WireF8Protocol_pSgvM",
+              "mangledName": "$s3Goo16TvShowsPresenterC9wireFrameAA0bc4WireF8Protocol_pSgvM",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "TvShowsPresenter",
+              "printedName": "Goo.TvShowsPresenter",
+              "usr": "s:3Goo16TvShowsPresenterC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:3Goo16TvShowsPresenterCACycfc",
+          "mangledName": "$s3Goo16TvShowsPresenterCACycfc",
+          "moduleName": "Goo",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:3Goo16TvShowsPresenterC11viewDidLoadyyF",
+          "mangledName": "$s3Goo16TvShowsPresenterC11viewDidLoadyyF",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "interToPresenterData",
+          "printedName": "interToPresenterData(receData:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Goo.TvShow]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TvShow",
+                  "printedName": "Goo.TvShow",
+                  "usr": "s:3Goo6TvShowV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:3Goo16TvShowsPresenterC07interToD4Data04receG0ySayAA0B4ShowVG_tF",
+          "mangledName": "$s3Goo16TvShowsPresenterC07interToD4Data04receG0ySayAA0B4ShowVG_tF",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:3Goo16TvShowsPresenterC",
+      "mangledName": "$s3Goo16TvShowsPresenterC",
+      "moduleName": "Goo",
+      "isOpen": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "TvShowsPresenterProtocol",
+          "printedName": "TvShowsPresenterProtocol",
+          "usr": "s:3Goo24TvShowsPresenterProtocolP",
+          "mangledName": "$s3Goo24TvShowsPresenterProtocolP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "TvShowsInteractorOutputProtocol",
+          "printedName": "TvShowsInteractorOutputProtocol",
+          "usr": "s:3Goo31TvShowsInteractorOutputProtocolP",
+          "mangledName": "$s3Goo31TvShowsInteractorOutputProtocolP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Goo",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
       "kind": "TypeDecl",
       "name": "HomeInteractor",
       "printedName": "HomeInteractor",
@@ -3919,6 +8480,159 @@
           "printedName": "HomeWireFrameProtocol",
           "usr": "s:3Goo21HomeWireFrameProtocolP",
           "mangledName": "$s3Goo21HomeWireFrameProtocolP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "UIImageView",
+      "printedName": "UIImageView",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "downloaded",
+          "printedName": "downloaded(from:contentMode:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "URL",
+              "printedName": "Foundation.URL",
+              "usr": "s:10Foundation3URLV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ContentMode",
+              "printedName": "UIKit.UIView.ContentMode",
+              "hasDefaultArg": true,
+              "usr": "c:@E@UIViewContentMode"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So11UIImageViewC3GooE10downloaded4from11contentModey10Foundation3URLV_So013UIViewContentG0VtF",
+          "mangledName": "$sSo11UIImageViewC3GooE10downloaded4from11contentModey10Foundation3URLV_So013UIViewContentG0VtF",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "downloaded",
+          "printedName": "downloaded(from:contentMode:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ContentMode",
+              "printedName": "UIKit.UIView.ContentMode",
+              "hasDefaultArg": true,
+              "usr": "c:@E@UIViewContentMode"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So11UIImageViewC3GooE10downloaded4from11contentModeySS_So013UIViewContentG0VtF",
+          "mangledName": "$sSo11UIImageViewC3GooE10downloaded4from11contentModeySS_So013UIViewContentG0VtF",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:objc(cs)UIImageView",
+      "moduleName": "UIKit",
+      "isOpen": true,
+      "intro_iOS": "2.0",
+      "objc_name": "UIImageView",
+      "declAttributes": [
+        "Available",
+        "ObjC",
+        "Custom",
+        "Dynamic"
+      ],
+      "superclassUsr": "c:objc(cs)UIView",
+      "isExternal": true,
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIView",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "__DefaultCustomPlaygroundQuickLookable",
+          "printedName": "__DefaultCustomPlaygroundQuickLookable",
+          "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+          "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
         }
       ]
     }

@@ -31,7 +31,7 @@ class HomeView:  UITabBarController {
         
             view.backgroundColor = .white
             
-            let vc1 = FirtsViewController()
+            let vc1 = TvShowsWireFrame.createTvShowsModule()
             let vc2 = SecondViewController()
             
             vc1.title = "Show"
