@@ -17,8 +17,9 @@ class TvShowsView: UIViewController, UITableViewDataSource, UITableViewDelegate 
     var presenter: TvShowsPresenterProtocol?
     
     var datosView = [TvShow]()
+    var swipeCellTool = false
     
-    let tableShows: UITableView = {
+    private let tableShows: UITableView = {
           let tableV = UITableView()
          return tableV
        }()
@@ -45,6 +46,28 @@ class TvShowsView: UIViewController, UITableViewDataSource, UITableViewDelegate 
         tableShows.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0).isActive = true
         tableShows.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 0).isActive = true
        }
+    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+    
+    func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
+        
+        let user = datosView[indexPath.row]
+        let favActTitle = swipeCellTool ? "Delete" : "Favorite"
+        
+        let actionFav = UITableViewRowAction(style: .normal, title: favActTitle) {  _, indexPath in
+            self.swipeCellTool.toggle()
+            self.tableShows.reloadRows(at: [indexPath], with: .automatic)
+        }
+        
+        if !swipeCellTool {
+            actionFav.backgroundColor = .systemGreen
+        }else{
+            actionFav.backgroundColor = .red
+        }
+     
+        return [actionFav]
+    }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
@@ -63,13 +86,16 @@ class TvShowsView: UIViewController, UITableViewDataSource, UITableViewDelegate 
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print(datosView[indexPath.row].isFav)
+    }
+    
 }
 
 
 extension TvShowsView: TvShowsViewProtocol {
     func presentToView(recev: [TvShow]) {
         datosView = recev
-        
         DispatchQueue.main.async {
             self.tableShows.reloadData()
         }

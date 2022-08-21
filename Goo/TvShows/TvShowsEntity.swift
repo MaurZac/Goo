@@ -6,12 +6,6 @@
 //
 
 import Foundation
-// This file was generated from JSON Schema using quicktype, do not modify it directly.
-// To parse the JSON, add this file to your project and do:
-//
-//   let tvShows = try? newJSONDecoder().decode(TvShows.self, from: jsonData)
-
-import Foundation
 
 // MARK: - TvShow
 struct TvShow: Codable {
@@ -34,10 +28,13 @@ struct TvShow: Codable {
 //    var dvdCountry: Country?
 //    var externals: Externals?
     var image: Image?
+    var isFav: Bool?
 //    var summary: String?
 //    var updated: Int?
 //    var links: Links?
 }
+
+
 //
 //// MARK: - Country
 //struct Country: Codable {

@@ -2411,6 +2411,97 @@
         },
         {
           "kind": "Var",
+          "name": "swipeCellTool",
+          "printedName": "swipeCellTool",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo11TvShowsViewC13swipeCellToolSbvp",
+          "mangledName": "$s3Goo11TvShowsViewC13swipeCellToolSbvp",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo11TvShowsViewC13swipeCellToolSbvg",
+              "mangledName": "$s3Goo11TvShowsViewC13swipeCellToolSbvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo11TvShowsViewC13swipeCellToolSbvs",
+              "mangledName": "$s3Goo11TvShowsViewC13swipeCellToolSbvs",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo11TvShowsViewC13swipeCellToolSbvM",
+              "mangledName": "$s3Goo11TvShowsViewC13swipeCellToolSbvM",
+              "moduleName": "Goo",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
           "name": "tableShows",
           "printedName": "tableShows",
           "children": [
@@ -2422,42 +2513,20 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:3Goo11TvShowsViewC05tableC0So07UITableD0Cvp",
-          "mangledName": "$s3Goo11TvShowsViewC05tableC0So07UITableD0Cvp",
+          "usr": "s:3Goo11TvShowsViewC05tableC033_56A7126C8A37B7B13EF6A65742C883D7LLSo07UITableD0Cvp",
+          "mangledName": "$s3Goo11TvShowsViewC05tableC033_56A7126C8A37B7B13EF6A65742C883D7LLSo07UITableD0Cvp",
           "moduleName": "Goo",
+          "isInternal": true,
           "declAttributes": [
             "Custom",
             "HasInitialValue",
             "Final",
-            "HasStorage"
+            "HasStorage",
+            "AccessControl"
           ],
-          "fixedbinaryorder": 2,
+          "fixedbinaryorder": 3,
           "isLet": true,
-          "hasStorage": true,
-          "accessors": [
-            {
-              "kind": "Accessor",
-              "name": "Get",
-              "printedName": "Get()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "UITableView",
-                  "printedName": "UIKit.UITableView",
-                  "usr": "c:objc(cs)UITableView"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "s:3Goo11TvShowsViewC05tableC0So07UITableD0Cvg",
-              "mangledName": "$s3Goo11TvShowsViewC05tableC0So07UITableD0Cvg",
-              "moduleName": "Goo",
-              "implicit": true,
-              "declAttributes": [
-                "Final"
-              ],
-              "accessorKind": "get"
-            }
-          ]
+          "hasStorage": true
         },
         {
           "kind": "Function",
@@ -2503,6 +2572,94 @@
           "moduleName": "Goo",
           "isOpen": true,
           "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:canEditRowAt:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "IndexPath",
+              "printedName": "Foundation.IndexPath",
+              "usr": "s:10Foundation9IndexPathV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Goo@objc(cs)TvShowsView(im)tableView:canEditRowAtIndexPath:",
+          "mangledName": "$s3Goo11TvShowsViewC05tableD0_12canEditRowAtSbSo07UITableD0C_10Foundation9IndexPathVtF",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "objc_name": "tableView:canEditRowAtIndexPath:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:editActionsForRowAt:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "[UIKit.UITableViewRowAction]?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[UIKit.UITableViewRowAction]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITableViewRowAction",
+                      "printedName": "UIKit.UITableViewRowAction",
+                      "usr": "c:objc(cs)UITableViewRowAction"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "IndexPath",
+              "printedName": "Foundation.IndexPath",
+              "usr": "s:10Foundation9IndexPathV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Goo@objc(cs)TvShowsView(im)tableView:editActionsForRowAtIndexPath:",
+          "mangledName": "$s3Goo11TvShowsViewC05tableD0_19editActionsForRowAtSaySo07UITabledI6ActionCGSgSo0kD0C_10Foundation9IndexPathVtF",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "objc_name": "tableView:editActionsForRowAtIndexPath:",
+          "declAttributes": [
+            "ObjC",
             "Custom"
           ],
           "funcSelfKind": "NonMutating"
@@ -2609,6 +2766,41 @@
           "moduleName": "Goo",
           "isOpen": true,
           "objc_name": "tableView:cellForRowAtIndexPath:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:didSelectRowAt:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "IndexPath",
+              "printedName": "Foundation.IndexPath",
+              "usr": "s:10Foundation9IndexPathV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Goo@objc(cs)TvShowsView(im)tableView:didSelectRowAtIndexPath:",
+          "mangledName": "$s3Goo11TvShowsViewC05tableD0_14didSelectRowAtySo07UITableD0C_10Foundation9IndexPathVtF",
+          "moduleName": "Goo",
+          "isOpen": true,
+          "objc_name": "tableView:didSelectRowAtIndexPath:",
           "declAttributes": [
             "ObjC",
             "Custom"
@@ -5061,202 +5253,6 @@
     },
     {
       "kind": "TypeDecl",
-      "name": "FirtsViewController",
-      "printedName": "FirtsViewController",
-      "children": [
-        {
-          "kind": "Function",
-          "name": "viewDidLoad",
-          "printedName": "viewDidLoad()",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Void",
-              "printedName": "()"
-            }
-          ],
-          "declKind": "Func",
-          "usr": "c:@M@Goo@objc(cs)FirtsViewController(im)viewDidLoad",
-          "mangledName": "$s3Goo19FirtsViewControllerC11viewDidLoadyyF",
-          "moduleName": "Goo",
-          "overriding": true,
-          "isOpen": true,
-          "objc_name": "viewDidLoad",
-          "declAttributes": [
-            "Dynamic",
-            "ObjC",
-            "Custom",
-            "Override"
-          ],
-          "funcSelfKind": "NonMutating"
-        },
-        {
-          "kind": "Constructor",
-          "name": "init",
-          "printedName": "init(nibName:bundle:)",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "FirtsViewController",
-              "printedName": "Goo.FirtsViewController",
-              "usr": "c:@M@Goo@objc(cs)FirtsViewController"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "Optional",
-              "printedName": "Swift.String?",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "String",
-                  "printedName": "Swift.String",
-                  "usr": "s:SS"
-                }
-              ],
-              "usr": "s:Sq"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "Optional",
-              "printedName": "Foundation.Bundle?",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Bundle",
-                  "printedName": "Foundation.Bundle",
-                  "usr": "c:objc(cs)NSBundle"
-                }
-              ],
-              "usr": "s:Sq"
-            }
-          ],
-          "declKind": "Constructor",
-          "usr": "c:@M@Goo@objc(cs)FirtsViewController(im)initWithNibName:bundle:",
-          "mangledName": "$s3Goo19FirtsViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
-          "moduleName": "Goo",
-          "overriding": true,
-          "implicit": true,
-          "objc_name": "initWithNibName:bundle:",
-          "declAttributes": [
-            "Dynamic",
-            "ObjC",
-            "Custom",
-            "Override"
-          ],
-          "init_kind": "Designated"
-        },
-        {
-          "kind": "Constructor",
-          "name": "init",
-          "printedName": "init(coder:)",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Optional",
-              "printedName": "Goo.FirtsViewController?",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "FirtsViewController",
-                  "printedName": "Goo.FirtsViewController",
-                  "usr": "c:@M@Goo@objc(cs)FirtsViewController"
-                }
-              ],
-              "usr": "s:Sq"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "NSCoder",
-              "printedName": "Foundation.NSCoder",
-              "usr": "c:objc(cs)NSCoder"
-            }
-          ],
-          "declKind": "Constructor",
-          "usr": "c:@M@Goo@objc(cs)FirtsViewController(im)initWithCoder:",
-          "mangledName": "$s3Goo19FirtsViewControllerC5coderACSgSo7NSCoderC_tcfc",
-          "moduleName": "Goo",
-          "overriding": true,
-          "implicit": true,
-          "objc_name": "initWithCoder:",
-          "declAttributes": [
-            "Dynamic",
-            "ObjC",
-            "Custom",
-            "Required"
-          ],
-          "init_kind": "Designated"
-        }
-      ],
-      "declKind": "Class",
-      "usr": "c:@M@Goo@objc(cs)FirtsViewController",
-      "mangledName": "$s3Goo19FirtsViewControllerC",
-      "moduleName": "Goo",
-      "isOpen": true,
-      "declAttributes": [
-        "Custom",
-        "ObjC"
-      ],
-      "superclassUsr": "c:objc(cs)UIViewController",
-      "inheritsConvenienceInitializers": true,
-      "superclassNames": [
-        "UIKit.UIViewController",
-        "UIKit.UIResponder",
-        "ObjectiveC.NSObject"
-      ],
-      "conformances": [
-        {
-          "kind": "Conformance",
-          "name": "Equatable",
-          "printedName": "Equatable",
-          "usr": "s:SQ",
-          "mangledName": "$sSQ"
-        },
-        {
-          "kind": "Conformance",
-          "name": "Hashable",
-          "printedName": "Hashable",
-          "usr": "s:SH",
-          "mangledName": "$sSH"
-        },
-        {
-          "kind": "Conformance",
-          "name": "CVarArg",
-          "printedName": "CVarArg",
-          "usr": "s:s7CVarArgP",
-          "mangledName": "$ss7CVarArgP"
-        },
-        {
-          "kind": "Conformance",
-          "name": "_KeyValueCodingAndObservingPublishing",
-          "printedName": "_KeyValueCodingAndObservingPublishing",
-          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-        },
-        {
-          "kind": "Conformance",
-          "name": "_KeyValueCodingAndObserving",
-          "printedName": "_KeyValueCodingAndObserving",
-          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-        },
-        {
-          "kind": "Conformance",
-          "name": "CustomStringConvertible",
-          "printedName": "CustomStringConvertible",
-          "usr": "s:s23CustomStringConvertibleP",
-          "mangledName": "$ss23CustomStringConvertibleP"
-        },
-        {
-          "kind": "Conformance",
-          "name": "CustomDebugStringConvertible",
-          "printedName": "CustomDebugStringConvertible",
-          "usr": "s:s28CustomDebugStringConvertibleP",
-          "mangledName": "$ss28CustomDebugStringConvertibleP"
-        }
-      ]
-    },
-    {
-      "kind": "TypeDecl",
       "name": "SecondViewController",
       "printedName": "SecondViewController",
       "children": [
@@ -6669,16 +6665,6 @@
       ]
     },
     {
-      "kind": "Import",
-      "name": "Foundation",
-      "printedName": "Foundation",
-      "declKind": "Import",
-      "moduleName": "Goo",
-      "declAttributes": [
-        "RawDocComment"
-      ]
-    },
-    {
       "kind": "TypeDecl",
       "name": "TvShow",
       "printedName": "TvShow",
@@ -6924,9 +6910,128 @@
           ]
         },
         {
+          "kind": "Var",
+          "name": "isFav",
+          "printedName": "isFav",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Bool?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:3Goo6TvShowV5isFavSbSgvp",
+          "mangledName": "$s3Goo6TvShowV5isFavSbSgvp",
+          "moduleName": "Goo",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Bool?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo6TvShowV5isFavSbSgvg",
+              "mangledName": "$s3Goo6TvShowV5isFavSbSgvg",
+              "moduleName": "Goo",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Bool?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo6TvShowV5isFavSbSgvs",
+              "mangledName": "$s3Goo6TvShowV5isFavSbSgvs",
+              "moduleName": "Goo",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:3Goo6TvShowV5isFavSbSgvM",
+              "mangledName": "$s3Goo6TvShowV5isFavSbSgvM",
+              "moduleName": "Goo",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
           "kind": "Constructor",
           "name": "init",
-          "printedName": "init(name:image:)",
+          "printedName": "init(name:image:isFav:)",
           "children": [
             {
               "kind": "TypeNominal",
@@ -6963,11 +7068,26 @@
               ],
               "hasDefaultArg": true,
               "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Bool?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
             }
           ],
           "declKind": "Constructor",
-          "usr": "s:3Goo6TvShowV4name5imageACSSSg_AA5ImageVSgtcfc",
-          "mangledName": "$s3Goo6TvShowV4name5imageACSSSg_AA5ImageVSgtcfc",
+          "usr": "s:3Goo6TvShowV4name5image5isFavACSSSg_AA5ImageVSgSbSgtcfc",
+          "mangledName": "$s3Goo6TvShowV4name5image5isFavACSSSg_AA5ImageVSgSbSgtcfc",
           "moduleName": "Goo",
           "implicit": true,
           "init_kind": "Designated"
